@@ -1,3 +1,0 @@
-C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Product.dir/objects.a
-C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\mingw\bin\ar.exe qc CMakeFiles\Product.dir/objects.a @CMakeFiles\Product.dir\objects1.rsp
-C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Product.dir/objects.a -Wl,--no-whole-archive -o Product.exe -Wl,--out-implib,libProduct.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Product.dir\linklibs.rsp

@@ -1,3 +1,0 @@
-C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Black_and_white_painting.dir/objects.a
-C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\mingw\bin\ar.exe qc CMakeFiles\Black_and_white_painting.dir/objects.a @CMakeFiles\Black_and_white_painting.dir\objects1.rsp
-C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Black_and_white_painting.dir/objects.a -Wl,--no-whole-archive -o Black_and_white_painting.exe -Wl,--out-implib,libBlack_and_white_painting.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Black_and_white_painting.dir\linklibs.rsp

@@ -1,3 +1,0 @@
-C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Raising_Bacteria.dir/objects.a
-C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\mingw\bin\ar.exe qc CMakeFiles\Raising_Bacteria.dir/objects.a @CMakeFiles\Raising_Bacteria.dir\objects1.rsp
-C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Raising_Bacteria.dir/objects.a -Wl,--no-whole-archive -o Raising_Bacteria.exe -Wl,--out-implib,libRaising_Bacteria.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Raising_Bacteria.dir\linklibs.rsp

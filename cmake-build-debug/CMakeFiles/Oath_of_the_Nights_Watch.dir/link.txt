@@ -1,3 +1,0 @@
-C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Oath_of_the_Nights_Watch.dir/objects.a
-C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\mingw\bin\ar.exe qc CMakeFiles\Oath_of_the_Nights_Watch.dir/objects.a @CMakeFiles\Oath_of_the_Nights_Watch.dir\objects1.rsp
-C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Oath_of_the_Nights_Watch.dir/objects.a -Wl,--no-whole-archive -o Oath_of_the_Nights_Watch.exe -Wl,--out-implib,libOath_of_the_Nights_Watch.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Oath_of_the_Nights_Watch.dir\linklibs.rsp

@@ -1,3 +1,0 @@
-C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\The_Seasonal_War.dir/objects.a
-C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\mingw\bin\ar.exe qc CMakeFiles\The_Seasonal_War.dir/objects.a @CMakeFiles\The_Seasonal_War.dir\objects1.rsp
-C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\The_Seasonal_War.dir/objects.a -Wl,--no-whole-archive -o The_Seasonal_War.exe -Wl,--out-implib,libThe_Seasonal_War.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\The_Seasonal_War.dir\linklibs.rsp

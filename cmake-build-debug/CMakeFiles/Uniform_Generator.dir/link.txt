@@ -1,3 +1,0 @@
-C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Uniform_Generator.dir/objects.a
-C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\mingw\bin\ar.exe qc CMakeFiles\Uniform_Generator.dir/objects.a @CMakeFiles\Uniform_Generator.dir\objects1.rsp
-C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Uniform_Generator.dir/objects.a -Wl,--no-whole-archive -o Uniform_Generator.exe -Wl,--out-implib,libUniform_Generator.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Uniform_Generator.dir\linklibs.rsp
