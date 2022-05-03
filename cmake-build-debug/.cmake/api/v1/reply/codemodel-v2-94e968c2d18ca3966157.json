@@ -1,0 +1,474 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Junior_Training_Sheet",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Alyona_and_Numbers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Alyona_and_Numbers-Debug-bc8afa435f8ef901855c.json",
+					"name" : "Alyona_and_Numbers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Anton_and_Polyhedrons::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Anton_and_Polyhedrons-Debug-98dac38f918a8bd052fe.json",
+					"name" : "Anton_and_Polyhedrons",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Arpas_hard_exam_and_Mehrdads_naive_cheat::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Arpas_hard_exam_and_Mehrdads_naive_cheat-Debug-b2bb51b097afd870c3f2.json",
+					"name" : "Arpas_hard_exam_and_Mehrdads_naive_cheat",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Balanced_Rating_Changes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Balanced_Rating_Changes-Debug-71e543f865c3bf36832b.json",
+					"name" : "Balanced_Rating_Changes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BattleShip::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BattleShip-Debug-b7359faca1e1750c31fb.json",
+					"name" : "BattleShip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Black_and_white_painting::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Black_and_white_painting-Debug-4314897222ff361a1b4a.json",
+					"name" : "Black_and_white_painting",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BowWow_and_the_Timetable::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BowWow_and_the_Timetable-Debug-d7bedb7da5508aecf4b6.json",
+					"name" : "BowWow_and_the_Timetable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Brains_Photos::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Brains_Photos-Debug-0fb17234da4d4a0c3113.json",
+					"name" : "Brains_Photos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Calculating_Function::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Calculating_Function-Debug-e97046626000cffb862d.json",
+					"name" : "Calculating_Function",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Chewbacca_and_Number::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Chewbacca_and_Number-Debug-18338e819246aead9db0.json",
+					"name" : "Chewbacca_and_Number",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Counterexample::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Counterexample-Debug-ed3c6e56d21274a23825.json",
+					"name" : "Counterexample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Dubstep::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Dubstep-Debug-7f650463b0f213717c00.json",
+					"name" : "Dubstep",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "EASYMATH::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EASYMATH-Debug-3c0dbbd33173fb339266.json",
+					"name" : "EASYMATH",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Electricity::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Electricity-Debug-4b0e94ca378aec8079d3.json",
+					"name" : "Electricity",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Even_Odds::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Even_Odds-Debug-885900e833595893279d.json",
+					"name" : "Even_Odds",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Football::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Football-Debug-9e079a7f493a8887eef3.json",
+					"name" : "Football",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Forming_Teams::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Forming_Teams-Debug-fa5922b6c37c0267d325.json",
+					"name" : "Forming_Teams",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Good_Number::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Good_Number-Debug-844ebb4981180d28c299.json",
+					"name" : "Good_Number",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Help_Vasilisa_the_Wise_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Help_Vasilisa_the_Wise_2-Debug-014b1efa473dabdfe923.json",
+					"name" : "Help_Vasilisa_the_Wise_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Hierarchy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Hierarchy-Debug-1f2113c63ca070c200db.json",
+					"name" : "Hierarchy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "IQ_Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-IQ_Test-Debug-f4dcf66637d4273e9369.json",
+					"name" : "IQ_Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "I_Wanna_Be_the_Guy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-I_Wanna_Be_the_Guy-Debug-2a17ffd03d6dc51ed50e.json",
+					"name" : "I_Wanna_Be_the_Guy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Is_it_rated::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Is_it_rated-Debug-d3498174476ae57a1742.json",
+					"name" : "Is_it_rated",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Keyboard::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Keyboard-Debug-59db2b17905165f24f7a.json",
+					"name" : "Keyboard",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ksenia_and_Pan_Scales::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ksenia_and_Pan_Scales-Debug-8833523833b46fa3f3d2.json",
+					"name" : "Ksenia_and_Pan_Scales",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Launch_of_Collider::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Launch_of_Collider-Debug-e1058e04055c8853c6f3.json",
+					"name" : "Launch_of_Collider",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Light_more_light::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Light_more_light-Debug-1e4bd24b51981cf9c752.json",
+					"name" : "Light_more_light",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lineland_Mail::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lineland_Mail-Debug-b67f4bbfa2ab622d3de2.json",
+					"name" : "Lineland_Mail",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Marcus_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Marcus_2-Debug-0edcf2c38b740d2340bc.json",
+					"name" : "Marcus_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Mountain_Scenery::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Mountain_Scenery-Debug-bca4ee041e5fb3395da7.json",
+					"name" : "Mountain_Scenery",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Oath_of_the_Nights_Watch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Oath_of_the_Nights_Watch-Debug-295fbd3c37c83066542e.json",
+					"name" : "Oath_of_the_Nights_Watch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Olesya_and_Rodion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Olesya_and_Rodion-Debug-7729b501c0b1e5efb590.json",
+					"name" : "Olesya_and_Rodion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ordering_Tasks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ordering_Tasks-Debug-0ca4381d1ed12a993075.json",
+					"name" : "Ordering_Tasks",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Pangram::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Pangram-Debug-41c695b295496f86cdc6.json",
+					"name" : "Pangram",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Panoramixs_Prediction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Panoramixs_Prediction-Debug-486f0a942a37c1c3270f.json",
+					"name" : "Panoramixs_Prediction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Product::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Product-Debug-647ffe27fc928961d06f.json",
+					"name" : "Product",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Product_2nd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Product_2nd-Debug-cf4fb0f41f4a46d93b46.json",
+					"name" : "Product_2nd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Raising_Bacteria::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Raising_Bacteria-Debug-eaf94e499fa67380649c.json",
+					"name" : "Raising_Bacteria",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Snow_Footprints::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Snow_Footprints-Debug-7d6a5153b50781ebe3fd.json",
+					"name" : "Snow_Footprints",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Team_Forming::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Team_Forming-Debug-bb438154a2381ae9dacc.json",
+					"name" : "Team_Forming",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "The_Seasonal_War::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-The_Seasonal_War-Debug-d99f9fe5914d13402539.json",
+					"name" : "The_Seasonal_War",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "The_Seasonal_War_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-The_Seasonal_War_2-Debug-4085687aaa0ecbeb3294.json",
+					"name" : "The_Seasonal_War_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Theatre_Square::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Theatre_Square-Debug-6e1c02d784132a418838.json",
+					"name" : "Theatre_Square",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Twins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Twins-Debug-405fde7817302fa6a3af.json",
+					"name" : "Twins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Uniform_Generator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Uniform_Generator-Debug-1d31766858a8bbb2d89f.json",
+					"name" : "Uniform_Generator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Valera_and_X::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Valera_and_X-Debug-be46571bb69b1c020ed0.json",
+					"name" : "Valera_and_X",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Yaroslav_and_Permutations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Yaroslav_and_Permutations-Debug-61ed1c410a4f1f0fc567.json",
+					"name" : "Yaroslav_and_Permutations",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug",
+		"source" : "C:/Users/Storm/CLionProjects/Junior_Training_Sheet"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

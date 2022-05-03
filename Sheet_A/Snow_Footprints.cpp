@@ -10,15 +10,15 @@ int main() {
     string ss;
     cin >> n >> ss;
     int s, t;
-    int first_R = ss.find("R");
+    int first_R = ss.find('R');
     if (first_R == string::npos) {
-        s = ss.rfind("L");
-        t = ss.find("L");
+        s = ss.rfind('L');
+        t = ss.find('L');
         t--;
     } else {
-        s = ss.find("R");
-        t = ss.rfind("R");
-        if (ss.find("L") == string::npos) {
+        s = ss.find('R');
+        t = ss.rfind('R');
+        if (ss.find('L') == string::npos) {
             t++;
         }
     }
