@@ -1,0 +1,3 @@
+C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Forming_Teams.dir/objects.a
+C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\mingw\bin\ar.exe qc CMakeFiles\Forming_Teams.dir/objects.a @CMakeFiles\Forming_Teams.dir\objects1.rsp
+C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Forming_Teams.dir/objects.a -Wl,--no-whole-archive -o Forming_Teams.exe -Wl,--out-implib,libForming_Teams.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Forming_Teams.dir\linklibs.rsp
