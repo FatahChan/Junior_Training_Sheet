@@ -53,3 +53,6 @@ add_executable(Oath_of_the_Nights_Watch Sheet_A/Oath_of_the_Nights_Watch.cpp)
 add_executable(Wasted_Time Sheet_A/Wasted_Time.cpp)
 add_executable(Fancy_Fence "Sheet_A/ Fancy_Fence.cpp")
 add_executable(Pouring_Rain Sheet_A/Pouring_Rain.cpp)
+add_executable(Dice_Tower Sheet_A/Dice_Tower.cpp)
+
+add_executable(Points_in_Figures_Rectangles Sheet_A/Points_in_Figures_Rectangles.cpp)
