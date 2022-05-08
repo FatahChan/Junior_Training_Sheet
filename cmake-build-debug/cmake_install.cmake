@@ -1,8 +1,8 @@
-# Install script for directory: D:/CP/Junior_Training_Sheet
+# Install script for directory: D:/CP/Training Sheet A/untitled
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Junior_Training_Sheet")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/untitled")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/CP/Junior_Training_Sheet/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/CP/Training Sheet A/untitled/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
