@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: untitled
+# Project: Junior_Training_Sheet
 # Configurations: Debug
 # =============================================================================
 
@@ -39,49 +39,1927 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/CP/Training$ Sheet$ A/untitled/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target untitled
+# Object build statements for EXECUTABLE target Hierarchy
 
 
 #############################################
-# Order-only phony target for untitled
+# Order-only phony target for Hierarchy
 
-build cmake_object_order_depends_target_untitled: phony || CMakeFiles/untitled.dir
+build cmake_object_order_depends_target_Hierarchy: phony || CMakeFiles/Hierarchy.dir
 
-build CMakeFiles/untitled.dir/main.cpp.obj: CXX_COMPILER__untitled_Debug D$:/CP/Training$ Sheet$ A/untitled/main.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\main.cpp.obj.d
+build CMakeFiles/Hierarchy.dir/Sheet_A/Hierarchy.cpp.obj: CXX_COMPILER__Hierarchy_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Hierarchy.cpp || cmake_object_order_depends_target_Hierarchy
+  DEP_FILE = CMakeFiles\Hierarchy.dir\Sheet_A\Hierarchy.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
-  TARGET_COMPILE_PDB = CMakeFiles\untitled.dir\
-  TARGET_PDB = untitled.pdb
+  OBJECT_DIR = CMakeFiles\Hierarchy.dir
+  OBJECT_FILE_DIR = CMakeFiles\Hierarchy.dir\Sheet_A
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target untitled
+# Link build statements for EXECUTABLE target Hierarchy
 
 
 #############################################
-# Link the executable untitled.exe
+# Link the executable Hierarchy.exe
 
-build untitled.exe: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.cpp.obj
+build Hierarchy.exe: CXX_EXECUTABLE_LINKER__Hierarchy_Debug CMakeFiles/Hierarchy.dir/Sheet_A/Hierarchy.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_DIR = CMakeFiles\Hierarchy.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\untitled.dir\
-  TARGET_FILE = untitled.exe
-  TARGET_IMPLIB = libuntitled.dll.a
-  TARGET_PDB = untitled.pdb
+  TARGET_FILE = Hierarchy.exe
+  TARGET_IMPLIB = libHierarchy.dll.a
+  TARGET_PDB = Hierarchy.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Ordering_Tasks
+
+
+#############################################
+# Order-only phony target for Ordering_Tasks
+
+build cmake_object_order_depends_target_Ordering_Tasks: phony || CMakeFiles/Ordering_Tasks.dir
+
+build CMakeFiles/Ordering_Tasks.dir/Sheet_A/Ordering_Tasks.cpp.obj: CXX_COMPILER__Ordering_Tasks_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Ordering_Tasks.cpp || cmake_object_order_depends_target_Ordering_Tasks
+  DEP_FILE = CMakeFiles\Ordering_Tasks.dir\Sheet_A\Ordering_Tasks.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Ordering_Tasks.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ordering_Tasks.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ordering_Tasks
+
+
+#############################################
+# Link the executable Ordering_Tasks.exe
+
+build Ordering_Tasks.exe: CXX_EXECUTABLE_LINKER__Ordering_Tasks_Debug CMakeFiles/Ordering_Tasks.dir/Sheet_A/Ordering_Tasks.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ordering_Tasks.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ordering_Tasks.exe
+  TARGET_IMPLIB = libOrdering_Tasks.dll.a
+  TARGET_PDB = Ordering_Tasks.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Team_Forming
+
+
+#############################################
+# Order-only phony target for Team_Forming
+
+build cmake_object_order_depends_target_Team_Forming: phony || CMakeFiles/Team_Forming.dir
+
+build CMakeFiles/Team_Forming.dir/Sheet_A/Team_Forming.cpp.obj: CXX_COMPILER__Team_Forming_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Team_Forming.cpp || cmake_object_order_depends_target_Team_Forming
+  DEP_FILE = CMakeFiles\Team_Forming.dir\Sheet_A\Team_Forming.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Team_Forming.dir
+  OBJECT_FILE_DIR = CMakeFiles\Team_Forming.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Team_Forming
+
+
+#############################################
+# Link the executable Team_Forming.exe
+
+build Team_Forming.exe: CXX_EXECUTABLE_LINKER__Team_Forming_Debug CMakeFiles/Team_Forming.dir/Sheet_A/Team_Forming.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Team_Forming.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Team_Forming.exe
+  TARGET_IMPLIB = libTeam_Forming.dll.a
+  TARGET_PDB = Team_Forming.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Alyona_and_Numbers
+
+
+#############################################
+# Order-only phony target for Alyona_and_Numbers
+
+build cmake_object_order_depends_target_Alyona_and_Numbers: phony || CMakeFiles/Alyona_and_Numbers.dir
+
+build CMakeFiles/Alyona_and_Numbers.dir/Sheet_A/Alyona_and_Numbers.cpp.obj: CXX_COMPILER__Alyona_and_Numbers_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Alyona_and_Numbers.cpp || cmake_object_order_depends_target_Alyona_and_Numbers
+  DEP_FILE = CMakeFiles\Alyona_and_Numbers.dir\Sheet_A\Alyona_and_Numbers.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Alyona_and_Numbers.dir
+  OBJECT_FILE_DIR = CMakeFiles\Alyona_and_Numbers.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Alyona_and_Numbers
+
+
+#############################################
+# Link the executable Alyona_and_Numbers.exe
+
+build Alyona_and_Numbers.exe: CXX_EXECUTABLE_LINKER__Alyona_and_Numbers_Debug CMakeFiles/Alyona_and_Numbers.dir/Sheet_A/Alyona_and_Numbers.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Alyona_and_Numbers.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Alyona_and_Numbers.exe
+  TARGET_IMPLIB = libAlyona_and_Numbers.dll.a
+  TARGET_PDB = Alyona_and_Numbers.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Anton_and_Polyhedrons
+
+
+#############################################
+# Order-only phony target for Anton_and_Polyhedrons
+
+build cmake_object_order_depends_target_Anton_and_Polyhedrons: phony || CMakeFiles/Anton_and_Polyhedrons.dir
+
+build CMakeFiles/Anton_and_Polyhedrons.dir/Sheet_A/Anton_and_Polyhedrons.cpp.obj: CXX_COMPILER__Anton_and_Polyhedrons_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Anton_and_Polyhedrons.cpp || cmake_object_order_depends_target_Anton_and_Polyhedrons
+  DEP_FILE = CMakeFiles\Anton_and_Polyhedrons.dir\Sheet_A\Anton_and_Polyhedrons.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Anton_and_Polyhedrons.dir
+  OBJECT_FILE_DIR = CMakeFiles\Anton_and_Polyhedrons.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Anton_and_Polyhedrons
+
+
+#############################################
+# Link the executable Anton_and_Polyhedrons.exe
+
+build Anton_and_Polyhedrons.exe: CXX_EXECUTABLE_LINKER__Anton_and_Polyhedrons_Debug CMakeFiles/Anton_and_Polyhedrons.dir/Sheet_A/Anton_and_Polyhedrons.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Anton_and_Polyhedrons.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Anton_and_Polyhedrons.exe
+  TARGET_IMPLIB = libAnton_and_Polyhedrons.dll.a
+  TARGET_PDB = Anton_and_Polyhedrons.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Arpas_hard_exam_and_Mehrdads_naive_cheat
+
+
+#############################################
+# Order-only phony target for Arpas_hard_exam_and_Mehrdads_naive_cheat
+
+build cmake_object_order_depends_target_Arpas_hard_exam_and_Mehrdads_naive_cheat: phony || CMakeFiles/Arpas_hard_exam_and_Mehrdads_naive_cheat.dir
+
+build CMakeFiles/Arpas_hard_exam_and_Mehrdads_naive_cheat.dir/Sheet_A/Arpas_hard_exam_and_Mehrdads_naive_cheat.cpp.obj: CXX_COMPILER__Arpas_hard_exam_and_Mehrdads_naive_cheat_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Arpas_hard_exam_and_Mehrdads_naive_cheat.cpp || cmake_object_order_depends_target_Arpas_hard_exam_and_Mehrdads_naive_cheat
+  DEP_FILE = CMakeFiles\Arpas_hard_exam_and_Mehrdads_naive_cheat.dir\Sheet_A\Arpas_hard_exam_and_Mehrdads_naive_cheat.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Arpas_hard_exam_and_Mehrdads_naive_cheat.dir
+  OBJECT_FILE_DIR = CMakeFiles\Arpas_hard_exam_and_Mehrdads_naive_cheat.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Arpas_hard_exam_and_Mehrdads_naive_cheat
+
+
+#############################################
+# Link the executable Arpas_hard_exam_and_Mehrdads_naive_cheat.exe
+
+build Arpas_hard_exam_and_Mehrdads_naive_cheat.exe: CXX_EXECUTABLE_LINKER__Arpas_hard_exam_and_Mehrdads_naive_cheat_Debug CMakeFiles/Arpas_hard_exam_and_Mehrdads_naive_cheat.dir/Sheet_A/Arpas_hard_exam_and_Mehrdads_naive_cheat.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Arpas_hard_exam_and_Mehrdads_naive_cheat.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Arpas_hard_exam_and_Mehrdads_naive_cheat.exe
+  TARGET_IMPLIB = libArpas_hard_exam_and_Mehrdads_naive_cheat.dll.a
+  TARGET_PDB = Arpas_hard_exam_and_Mehrdads_naive_cheat.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Balanced_Rating_Changes
+
+
+#############################################
+# Order-only phony target for Balanced_Rating_Changes
+
+build cmake_object_order_depends_target_Balanced_Rating_Changes: phony || CMakeFiles/Balanced_Rating_Changes.dir
+
+build CMakeFiles/Balanced_Rating_Changes.dir/Sheet_A/Balanced_Rating_Changes.cpp.obj: CXX_COMPILER__Balanced_Rating_Changes_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Balanced_Rating_Changes.cpp || cmake_object_order_depends_target_Balanced_Rating_Changes
+  DEP_FILE = CMakeFiles\Balanced_Rating_Changes.dir\Sheet_A\Balanced_Rating_Changes.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Balanced_Rating_Changes.dir
+  OBJECT_FILE_DIR = CMakeFiles\Balanced_Rating_Changes.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Balanced_Rating_Changes
+
+
+#############################################
+# Link the executable Balanced_Rating_Changes.exe
+
+build Balanced_Rating_Changes.exe: CXX_EXECUTABLE_LINKER__Balanced_Rating_Changes_Debug CMakeFiles/Balanced_Rating_Changes.dir/Sheet_A/Balanced_Rating_Changes.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Balanced_Rating_Changes.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Balanced_Rating_Changes.exe
+  TARGET_IMPLIB = libBalanced_Rating_Changes.dll.a
+  TARGET_PDB = Balanced_Rating_Changes.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BattleShip
+
+
+#############################################
+# Order-only phony target for BattleShip
+
+build cmake_object_order_depends_target_BattleShip: phony || CMakeFiles/BattleShip.dir
+
+build CMakeFiles/BattleShip.dir/Sheet_A/BattleShip.cpp.obj: CXX_COMPILER__BattleShip_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/BattleShip.cpp || cmake_object_order_depends_target_BattleShip
+  DEP_FILE = CMakeFiles\BattleShip.dir\Sheet_A\BattleShip.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\BattleShip.dir
+  OBJECT_FILE_DIR = CMakeFiles\BattleShip.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BattleShip
+
+
+#############################################
+# Link the executable BattleShip.exe
+
+build BattleShip.exe: CXX_EXECUTABLE_LINKER__BattleShip_Debug CMakeFiles/BattleShip.dir/Sheet_A/BattleShip.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BattleShip.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BattleShip.exe
+  TARGET_IMPLIB = libBattleShip.dll.a
+  TARGET_PDB = BattleShip.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Black_and_white_painting
+
+
+#############################################
+# Order-only phony target for Black_and_white_painting
+
+build cmake_object_order_depends_target_Black_and_white_painting: phony || CMakeFiles/Black_and_white_painting.dir
+
+build CMakeFiles/Black_and_white_painting.dir/Sheet_A/Black_and_white_painting.cpp.obj: CXX_COMPILER__Black_and_white_painting_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Black_and_white_painting.cpp || cmake_object_order_depends_target_Black_and_white_painting
+  DEP_FILE = CMakeFiles\Black_and_white_painting.dir\Sheet_A\Black_and_white_painting.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Black_and_white_painting.dir
+  OBJECT_FILE_DIR = CMakeFiles\Black_and_white_painting.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Black_and_white_painting
+
+
+#############################################
+# Link the executable Black_and_white_painting.exe
+
+build Black_and_white_painting.exe: CXX_EXECUTABLE_LINKER__Black_and_white_painting_Debug CMakeFiles/Black_and_white_painting.dir/Sheet_A/Black_and_white_painting.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Black_and_white_painting.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Black_and_white_painting.exe
+  TARGET_IMPLIB = libBlack_and_white_painting.dll.a
+  TARGET_PDB = Black_and_white_painting.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Brains_Photos
+
+
+#############################################
+# Order-only phony target for Brains_Photos
+
+build cmake_object_order_depends_target_Brains_Photos: phony || CMakeFiles/Brains_Photos.dir
+
+build CMakeFiles/Brains_Photos.dir/Sheet_A/Brains_Photos.cpp.obj: CXX_COMPILER__Brains_Photos_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Brains_Photos.cpp || cmake_object_order_depends_target_Brains_Photos
+  DEP_FILE = CMakeFiles\Brains_Photos.dir\Sheet_A\Brains_Photos.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Brains_Photos.dir
+  OBJECT_FILE_DIR = CMakeFiles\Brains_Photos.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Brains_Photos
+
+
+#############################################
+# Link the executable Brains_Photos.exe
+
+build Brains_Photos.exe: CXX_EXECUTABLE_LINKER__Brains_Photos_Debug CMakeFiles/Brains_Photos.dir/Sheet_A/Brains_Photos.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Brains_Photos.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Brains_Photos.exe
+  TARGET_IMPLIB = libBrains_Photos.dll.a
+  TARGET_PDB = Brains_Photos.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Calculating_Function
+
+
+#############################################
+# Order-only phony target for Calculating_Function
+
+build cmake_object_order_depends_target_Calculating_Function: phony || CMakeFiles/Calculating_Function.dir
+
+build CMakeFiles/Calculating_Function.dir/Sheet_A/Calculating_Function.cpp.obj: CXX_COMPILER__Calculating_Function_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Calculating_Function.cpp || cmake_object_order_depends_target_Calculating_Function
+  DEP_FILE = CMakeFiles\Calculating_Function.dir\Sheet_A\Calculating_Function.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Calculating_Function.dir
+  OBJECT_FILE_DIR = CMakeFiles\Calculating_Function.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Calculating_Function
+
+
+#############################################
+# Link the executable Calculating_Function.exe
+
+build Calculating_Function.exe: CXX_EXECUTABLE_LINKER__Calculating_Function_Debug CMakeFiles/Calculating_Function.dir/Sheet_A/Calculating_Function.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Calculating_Function.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Calculating_Function.exe
+  TARGET_IMPLIB = libCalculating_Function.dll.a
+  TARGET_PDB = Calculating_Function.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Chewbacca_and_Number
+
+
+#############################################
+# Order-only phony target for Chewbacca_and_Number
+
+build cmake_object_order_depends_target_Chewbacca_and_Number: phony || CMakeFiles/Chewbacca_and_Number.dir
+
+build CMakeFiles/Chewbacca_and_Number.dir/Sheet_A/Chewbacca_and_Number.cpp.obj: CXX_COMPILER__Chewbacca_and_Number_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Chewbacca_and_Number.cpp || cmake_object_order_depends_target_Chewbacca_and_Number
+  DEP_FILE = CMakeFiles\Chewbacca_and_Number.dir\Sheet_A\Chewbacca_and_Number.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Chewbacca_and_Number.dir
+  OBJECT_FILE_DIR = CMakeFiles\Chewbacca_and_Number.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Chewbacca_and_Number
+
+
+#############################################
+# Link the executable Chewbacca_and_Number.exe
+
+build Chewbacca_and_Number.exe: CXX_EXECUTABLE_LINKER__Chewbacca_and_Number_Debug CMakeFiles/Chewbacca_and_Number.dir/Sheet_A/Chewbacca_and_Number.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Chewbacca_and_Number.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Chewbacca_and_Number.exe
+  TARGET_IMPLIB = libChewbacca_and_Number.dll.a
+  TARGET_PDB = Chewbacca_and_Number.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Counterexample
+
+
+#############################################
+# Order-only phony target for Counterexample
+
+build cmake_object_order_depends_target_Counterexample: phony || CMakeFiles/Counterexample.dir
+
+build CMakeFiles/Counterexample.dir/Sheet_A/Counterexample.cpp.obj: CXX_COMPILER__Counterexample_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Counterexample.cpp || cmake_object_order_depends_target_Counterexample
+  DEP_FILE = CMakeFiles\Counterexample.dir\Sheet_A\Counterexample.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Counterexample.dir
+  OBJECT_FILE_DIR = CMakeFiles\Counterexample.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Counterexample
+
+
+#############################################
+# Link the executable Counterexample.exe
+
+build Counterexample.exe: CXX_EXECUTABLE_LINKER__Counterexample_Debug CMakeFiles/Counterexample.dir/Sheet_A/Counterexample.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Counterexample.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Counterexample.exe
+  TARGET_IMPLIB = libCounterexample.dll.a
+  TARGET_PDB = Counterexample.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Dubstep
+
+
+#############################################
+# Order-only phony target for Dubstep
+
+build cmake_object_order_depends_target_Dubstep: phony || CMakeFiles/Dubstep.dir
+
+build CMakeFiles/Dubstep.dir/Sheet_A/Dubstep.cpp.obj: CXX_COMPILER__Dubstep_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Dubstep.cpp || cmake_object_order_depends_target_Dubstep
+  DEP_FILE = CMakeFiles\Dubstep.dir\Sheet_A\Dubstep.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Dubstep.dir
+  OBJECT_FILE_DIR = CMakeFiles\Dubstep.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Dubstep
+
+
+#############################################
+# Link the executable Dubstep.exe
+
+build Dubstep.exe: CXX_EXECUTABLE_LINKER__Dubstep_Debug CMakeFiles/Dubstep.dir/Sheet_A/Dubstep.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Dubstep.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Dubstep.exe
+  TARGET_IMPLIB = libDubstep.dll.a
+  TARGET_PDB = Dubstep.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Even_Odds
+
+
+#############################################
+# Order-only phony target for Even_Odds
+
+build cmake_object_order_depends_target_Even_Odds: phony || CMakeFiles/Even_Odds.dir
+
+build CMakeFiles/Even_Odds.dir/Sheet_A/Even_Odds.cpp.obj: CXX_COMPILER__Even_Odds_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Even_Odds.cpp || cmake_object_order_depends_target_Even_Odds
+  DEP_FILE = CMakeFiles\Even_Odds.dir\Sheet_A\Even_Odds.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Even_Odds.dir
+  OBJECT_FILE_DIR = CMakeFiles\Even_Odds.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Even_Odds
+
+
+#############################################
+# Link the executable Even_Odds.exe
+
+build Even_Odds.exe: CXX_EXECUTABLE_LINKER__Even_Odds_Debug CMakeFiles/Even_Odds.dir/Sheet_A/Even_Odds.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Even_Odds.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Even_Odds.exe
+  TARGET_IMPLIB = libEven_Odds.dll.a
+  TARGET_PDB = Even_Odds.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Football
+
+
+#############################################
+# Order-only phony target for Football
+
+build cmake_object_order_depends_target_Football: phony || CMakeFiles/Football.dir
+
+build CMakeFiles/Football.dir/Sheet_A/Football.cpp.obj: CXX_COMPILER__Football_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Football.cpp || cmake_object_order_depends_target_Football
+  DEP_FILE = CMakeFiles\Football.dir\Sheet_A\Football.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Football.dir
+  OBJECT_FILE_DIR = CMakeFiles\Football.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Football
+
+
+#############################################
+# Link the executable Football.exe
+
+build Football.exe: CXX_EXECUTABLE_LINKER__Football_Debug CMakeFiles/Football.dir/Sheet_A/Football.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Football.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Football.exe
+  TARGET_IMPLIB = libFootball.dll.a
+  TARGET_PDB = Football.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Good_Number
+
+
+#############################################
+# Order-only phony target for Good_Number
+
+build cmake_object_order_depends_target_Good_Number: phony || CMakeFiles/Good_Number.dir
+
+build CMakeFiles/Good_Number.dir/Sheet_A/Good_Number.cpp.obj: CXX_COMPILER__Good_Number_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Good_Number.cpp || cmake_object_order_depends_target_Good_Number
+  DEP_FILE = CMakeFiles\Good_Number.dir\Sheet_A\Good_Number.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Good_Number.dir
+  OBJECT_FILE_DIR = CMakeFiles\Good_Number.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Good_Number
+
+
+#############################################
+# Link the executable Good_Number.exe
+
+build Good_Number.exe: CXX_EXECUTABLE_LINKER__Good_Number_Debug CMakeFiles/Good_Number.dir/Sheet_A/Good_Number.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Good_Number.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Good_Number.exe
+  TARGET_IMPLIB = libGood_Number.dll.a
+  TARGET_PDB = Good_Number.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Help_Vasilisa_the_Wise_2
+
+
+#############################################
+# Order-only phony target for Help_Vasilisa_the_Wise_2
+
+build cmake_object_order_depends_target_Help_Vasilisa_the_Wise_2: phony || CMakeFiles/Help_Vasilisa_the_Wise_2.dir
+
+build CMakeFiles/Help_Vasilisa_the_Wise_2.dir/Sheet_A/Help_Vasilisa_the_Wise_2.cpp.obj: CXX_COMPILER__Help_Vasilisa_the_Wise_2_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Help_Vasilisa_the_Wise_2.cpp || cmake_object_order_depends_target_Help_Vasilisa_the_Wise_2
+  DEP_FILE = CMakeFiles\Help_Vasilisa_the_Wise_2.dir\Sheet_A\Help_Vasilisa_the_Wise_2.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Help_Vasilisa_the_Wise_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Help_Vasilisa_the_Wise_2.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Help_Vasilisa_the_Wise_2
+
+
+#############################################
+# Link the executable Help_Vasilisa_the_Wise_2.exe
+
+build Help_Vasilisa_the_Wise_2.exe: CXX_EXECUTABLE_LINKER__Help_Vasilisa_the_Wise_2_Debug CMakeFiles/Help_Vasilisa_the_Wise_2.dir/Sheet_A/Help_Vasilisa_the_Wise_2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Help_Vasilisa_the_Wise_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Help_Vasilisa_the_Wise_2.exe
+  TARGET_IMPLIB = libHelp_Vasilisa_the_Wise_2.dll.a
+  TARGET_PDB = Help_Vasilisa_the_Wise_2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target I_Wanna_Be_the_Guy
+
+
+#############################################
+# Order-only phony target for I_Wanna_Be_the_Guy
+
+build cmake_object_order_depends_target_I_Wanna_Be_the_Guy: phony || CMakeFiles/I_Wanna_Be_the_Guy.dir
+
+build CMakeFiles/I_Wanna_Be_the_Guy.dir/Sheet_A/I_Wanna_Be_the_Guy.cpp.obj: CXX_COMPILER__I_Wanna_Be_the_Guy_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/I_Wanna_Be_the_Guy.cpp || cmake_object_order_depends_target_I_Wanna_Be_the_Guy
+  DEP_FILE = CMakeFiles\I_Wanna_Be_the_Guy.dir\Sheet_A\I_Wanna_Be_the_Guy.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\I_Wanna_Be_the_Guy.dir
+  OBJECT_FILE_DIR = CMakeFiles\I_Wanna_Be_the_Guy.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target I_Wanna_Be_the_Guy
+
+
+#############################################
+# Link the executable I_Wanna_Be_the_Guy.exe
+
+build I_Wanna_Be_the_Guy.exe: CXX_EXECUTABLE_LINKER__I_Wanna_Be_the_Guy_Debug CMakeFiles/I_Wanna_Be_the_Guy.dir/Sheet_A/I_Wanna_Be_the_Guy.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\I_Wanna_Be_the_Guy.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = I_Wanna_Be_the_Guy.exe
+  TARGET_IMPLIB = libI_Wanna_Be_the_Guy.dll.a
+  TARGET_PDB = I_Wanna_Be_the_Guy.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target IQ_Test
+
+
+#############################################
+# Order-only phony target for IQ_Test
+
+build cmake_object_order_depends_target_IQ_Test: phony || CMakeFiles/IQ_Test.dir
+
+build CMakeFiles/IQ_Test.dir/Sheet_A/IQ_Test.cpp.obj: CXX_COMPILER__IQ_Test_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/IQ_Test.cpp || cmake_object_order_depends_target_IQ_Test
+  DEP_FILE = CMakeFiles\IQ_Test.dir\Sheet_A\IQ_Test.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\IQ_Test.dir
+  OBJECT_FILE_DIR = CMakeFiles\IQ_Test.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target IQ_Test
+
+
+#############################################
+# Link the executable IQ_Test.exe
+
+build IQ_Test.exe: CXX_EXECUTABLE_LINKER__IQ_Test_Debug CMakeFiles/IQ_Test.dir/Sheet_A/IQ_Test.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\IQ_Test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = IQ_Test.exe
+  TARGET_IMPLIB = libIQ_Test.dll.a
+  TARGET_PDB = IQ_Test.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Ksenia_and_Pan_Scales
+
+
+#############################################
+# Order-only phony target for Ksenia_and_Pan_Scales
+
+build cmake_object_order_depends_target_Ksenia_and_Pan_Scales: phony || CMakeFiles/Ksenia_and_Pan_Scales.dir
+
+build CMakeFiles/Ksenia_and_Pan_Scales.dir/Sheet_A/Ksenia_and_Pan_Scales.cpp.obj: CXX_COMPILER__Ksenia_and_Pan_Scales_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Ksenia_and_Pan_Scales.cpp || cmake_object_order_depends_target_Ksenia_and_Pan_Scales
+  DEP_FILE = CMakeFiles\Ksenia_and_Pan_Scales.dir\Sheet_A\Ksenia_and_Pan_Scales.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Ksenia_and_Pan_Scales.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ksenia_and_Pan_Scales.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ksenia_and_Pan_Scales
+
+
+#############################################
+# Link the executable Ksenia_and_Pan_Scales.exe
+
+build Ksenia_and_Pan_Scales.exe: CXX_EXECUTABLE_LINKER__Ksenia_and_Pan_Scales_Debug CMakeFiles/Ksenia_and_Pan_Scales.dir/Sheet_A/Ksenia_and_Pan_Scales.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ksenia_and_Pan_Scales.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ksenia_and_Pan_Scales.exe
+  TARGET_IMPLIB = libKsenia_and_Pan_Scales.dll.a
+  TARGET_PDB = Ksenia_and_Pan_Scales.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Launch_of_Collider
+
+
+#############################################
+# Order-only phony target for Launch_of_Collider
+
+build cmake_object_order_depends_target_Launch_of_Collider: phony || CMakeFiles/Launch_of_Collider.dir
+
+build CMakeFiles/Launch_of_Collider.dir/Sheet_A/Launch_of_Collider.cpp.obj: CXX_COMPILER__Launch_of_Collider_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Launch_of_Collider.cpp || cmake_object_order_depends_target_Launch_of_Collider
+  DEP_FILE = CMakeFiles\Launch_of_Collider.dir\Sheet_A\Launch_of_Collider.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Launch_of_Collider.dir
+  OBJECT_FILE_DIR = CMakeFiles\Launch_of_Collider.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Launch_of_Collider
+
+
+#############################################
+# Link the executable Launch_of_Collider.exe
+
+build Launch_of_Collider.exe: CXX_EXECUTABLE_LINKER__Launch_of_Collider_Debug CMakeFiles/Launch_of_Collider.dir/Sheet_A/Launch_of_Collider.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Launch_of_Collider.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Launch_of_Collider.exe
+  TARGET_IMPLIB = libLaunch_of_Collider.dll.a
+  TARGET_PDB = Launch_of_Collider.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Light_more_light
+
+
+#############################################
+# Order-only phony target for Light_more_light
+
+build cmake_object_order_depends_target_Light_more_light: phony || CMakeFiles/Light_more_light.dir
+
+build CMakeFiles/Light_more_light.dir/Sheet_A/Light_more_light.cpp.obj: CXX_COMPILER__Light_more_light_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Light_more_light.cpp || cmake_object_order_depends_target_Light_more_light
+  DEP_FILE = CMakeFiles\Light_more_light.dir\Sheet_A\Light_more_light.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Light_more_light.dir
+  OBJECT_FILE_DIR = CMakeFiles\Light_more_light.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Light_more_light
+
+
+#############################################
+# Link the executable Light_more_light.exe
+
+build Light_more_light.exe: CXX_EXECUTABLE_LINKER__Light_more_light_Debug CMakeFiles/Light_more_light.dir/Sheet_A/Light_more_light.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Light_more_light.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Light_more_light.exe
+  TARGET_IMPLIB = libLight_more_light.dll.a
+  TARGET_PDB = Light_more_light.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Lineland_Mail
+
+
+#############################################
+# Order-only phony target for Lineland_Mail
+
+build cmake_object_order_depends_target_Lineland_Mail: phony || CMakeFiles/Lineland_Mail.dir
+
+build CMakeFiles/Lineland_Mail.dir/Sheet_A/Lineland_Mail.cpp.obj: CXX_COMPILER__Lineland_Mail_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Lineland_Mail.cpp || cmake_object_order_depends_target_Lineland_Mail
+  DEP_FILE = CMakeFiles\Lineland_Mail.dir\Sheet_A\Lineland_Mail.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Lineland_Mail.dir
+  OBJECT_FILE_DIR = CMakeFiles\Lineland_Mail.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Lineland_Mail
+
+
+#############################################
+# Link the executable Lineland_Mail.exe
+
+build Lineland_Mail.exe: CXX_EXECUTABLE_LINKER__Lineland_Mail_Debug CMakeFiles/Lineland_Mail.dir/Sheet_A/Lineland_Mail.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Lineland_Mail.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Lineland_Mail.exe
+  TARGET_IMPLIB = libLineland_Mail.dll.a
+  TARGET_PDB = Lineland_Mail.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Marcus_2
+
+
+#############################################
+# Order-only phony target for Marcus_2
+
+build cmake_object_order_depends_target_Marcus_2: phony || CMakeFiles/Marcus_2.dir
+
+build CMakeFiles/Marcus_2.dir/Sheet_A/Marcus_2.cpp.obj: CXX_COMPILER__Marcus_2_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Marcus_2.cpp || cmake_object_order_depends_target_Marcus_2
+  DEP_FILE = CMakeFiles\Marcus_2.dir\Sheet_A\Marcus_2.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Marcus_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Marcus_2.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Marcus_2
+
+
+#############################################
+# Link the executable Marcus_2.exe
+
+build Marcus_2.exe: CXX_EXECUTABLE_LINKER__Marcus_2_Debug CMakeFiles/Marcus_2.dir/Sheet_A/Marcus_2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Marcus_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Marcus_2.exe
+  TARGET_IMPLIB = libMarcus_2.dll.a
+  TARGET_PDB = Marcus_2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Olesya_and_Rodion
+
+
+#############################################
+# Order-only phony target for Olesya_and_Rodion
+
+build cmake_object_order_depends_target_Olesya_and_Rodion: phony || CMakeFiles/Olesya_and_Rodion.dir
+
+build CMakeFiles/Olesya_and_Rodion.dir/Sheet_A/Olesya_and_Rodion.cpp.obj: CXX_COMPILER__Olesya_and_Rodion_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Olesya_and_Rodion.cpp || cmake_object_order_depends_target_Olesya_and_Rodion
+  DEP_FILE = CMakeFiles\Olesya_and_Rodion.dir\Sheet_A\Olesya_and_Rodion.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Olesya_and_Rodion.dir
+  OBJECT_FILE_DIR = CMakeFiles\Olesya_and_Rodion.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Olesya_and_Rodion
+
+
+#############################################
+# Link the executable Olesya_and_Rodion.exe
+
+build Olesya_and_Rodion.exe: CXX_EXECUTABLE_LINKER__Olesya_and_Rodion_Debug CMakeFiles/Olesya_and_Rodion.dir/Sheet_A/Olesya_and_Rodion.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Olesya_and_Rodion.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Olesya_and_Rodion.exe
+  TARGET_IMPLIB = libOlesya_and_Rodion.dll.a
+  TARGET_PDB = Olesya_and_Rodion.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Mountain_Scenery
+
+
+#############################################
+# Order-only phony target for Mountain_Scenery
+
+build cmake_object_order_depends_target_Mountain_Scenery: phony || CMakeFiles/Mountain_Scenery.dir
+
+build CMakeFiles/Mountain_Scenery.dir/Sheet_A/Mountain_Scenery.cpp.obj: CXX_COMPILER__Mountain_Scenery_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Mountain_Scenery.cpp || cmake_object_order_depends_target_Mountain_Scenery
+  DEP_FILE = CMakeFiles\Mountain_Scenery.dir\Sheet_A\Mountain_Scenery.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Mountain_Scenery.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mountain_Scenery.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Mountain_Scenery
+
+
+#############################################
+# Link the executable Mountain_Scenery.exe
+
+build Mountain_Scenery.exe: CXX_EXECUTABLE_LINKER__Mountain_Scenery_Debug CMakeFiles/Mountain_Scenery.dir/Sheet_A/Mountain_Scenery.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Mountain_Scenery.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Mountain_Scenery.exe
+  TARGET_IMPLIB = libMountain_Scenery.dll.a
+  TARGET_PDB = Mountain_Scenery.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target The_Seasonal_War
+
+
+#############################################
+# Order-only phony target for The_Seasonal_War
+
+build cmake_object_order_depends_target_The_Seasonal_War: phony || CMakeFiles/The_Seasonal_War.dir
+
+build CMakeFiles/The_Seasonal_War.dir/Sheet_A/The_Seasonal_War.cpp.obj: CXX_COMPILER__The_Seasonal_War_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/The_Seasonal_War.cpp || cmake_object_order_depends_target_The_Seasonal_War
+  DEP_FILE = CMakeFiles\The_Seasonal_War.dir\Sheet_A\The_Seasonal_War.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\The_Seasonal_War.dir
+  OBJECT_FILE_DIR = CMakeFiles\The_Seasonal_War.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target The_Seasonal_War
+
+
+#############################################
+# Link the executable The_Seasonal_War.exe
+
+build The_Seasonal_War.exe: CXX_EXECUTABLE_LINKER__The_Seasonal_War_Debug CMakeFiles/The_Seasonal_War.dir/Sheet_A/The_Seasonal_War.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\The_Seasonal_War.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = The_Seasonal_War.exe
+  TARGET_IMPLIB = libThe_Seasonal_War.dll.a
+  TARGET_PDB = The_Seasonal_War.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target The_Seasonal_War_2
+
+
+#############################################
+# Order-only phony target for The_Seasonal_War_2
+
+build cmake_object_order_depends_target_The_Seasonal_War_2: phony || CMakeFiles/The_Seasonal_War_2.dir
+
+build CMakeFiles/The_Seasonal_War_2.dir/Sheet_A/The_Seasonal_War_2.cpp.obj: CXX_COMPILER__The_Seasonal_War_2_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/The_Seasonal_War_2.cpp || cmake_object_order_depends_target_The_Seasonal_War_2
+  DEP_FILE = CMakeFiles\The_Seasonal_War_2.dir\Sheet_A\The_Seasonal_War_2.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\The_Seasonal_War_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\The_Seasonal_War_2.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target The_Seasonal_War_2
+
+
+#############################################
+# Link the executable The_Seasonal_War_2.exe
+
+build The_Seasonal_War_2.exe: CXX_EXECUTABLE_LINKER__The_Seasonal_War_2_Debug CMakeFiles/The_Seasonal_War_2.dir/Sheet_A/The_Seasonal_War_2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\The_Seasonal_War_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = The_Seasonal_War_2.exe
+  TARGET_IMPLIB = libThe_Seasonal_War_2.dll.a
+  TARGET_PDB = The_Seasonal_War_2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Twins
+
+
+#############################################
+# Order-only phony target for Twins
+
+build cmake_object_order_depends_target_Twins: phony || CMakeFiles/Twins.dir
+
+build CMakeFiles/Twins.dir/Sheet_A/Twins.cpp.obj: CXX_COMPILER__Twins_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Twins.cpp || cmake_object_order_depends_target_Twins
+  DEP_FILE = CMakeFiles\Twins.dir\Sheet_A\Twins.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Twins.dir
+  OBJECT_FILE_DIR = CMakeFiles\Twins.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Twins
+
+
+#############################################
+# Link the executable Twins.exe
+
+build Twins.exe: CXX_EXECUTABLE_LINKER__Twins_Debug CMakeFiles/Twins.dir/Sheet_A/Twins.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Twins.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Twins.exe
+  TARGET_IMPLIB = libTwins.dll.a
+  TARGET_PDB = Twins.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Forming_Teams
+
+
+#############################################
+# Order-only phony target for Forming_Teams
+
+build cmake_object_order_depends_target_Forming_Teams: phony || CMakeFiles/Forming_Teams.dir
+
+build CMakeFiles/Forming_Teams.dir/Sheet_A/Forming_Teams.cpp.obj: CXX_COMPILER__Forming_Teams_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Forming_Teams.cpp || cmake_object_order_depends_target_Forming_Teams
+  DEP_FILE = CMakeFiles\Forming_Teams.dir\Sheet_A\Forming_Teams.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Forming_Teams.dir
+  OBJECT_FILE_DIR = CMakeFiles\Forming_Teams.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Forming_Teams
+
+
+#############################################
+# Link the executable Forming_Teams.exe
+
+build Forming_Teams.exe: CXX_EXECUTABLE_LINKER__Forming_Teams_Debug CMakeFiles/Forming_Teams.dir/Sheet_A/Forming_Teams.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Forming_Teams.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Forming_Teams.exe
+  TARGET_IMPLIB = libForming_Teams.dll.a
+  TARGET_PDB = Forming_Teams.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Keyboard
+
+
+#############################################
+# Order-only phony target for Keyboard
+
+build cmake_object_order_depends_target_Keyboard: phony || CMakeFiles/Keyboard.dir
+
+build CMakeFiles/Keyboard.dir/Sheet_A/Keyboard.cpp.obj: CXX_COMPILER__Keyboard_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Keyboard.cpp || cmake_object_order_depends_target_Keyboard
+  DEP_FILE = CMakeFiles\Keyboard.dir\Sheet_A\Keyboard.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Keyboard.dir
+  OBJECT_FILE_DIR = CMakeFiles\Keyboard.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Keyboard
+
+
+#############################################
+# Link the executable Keyboard.exe
+
+build Keyboard.exe: CXX_EXECUTABLE_LINKER__Keyboard_Debug CMakeFiles/Keyboard.dir/Sheet_A/Keyboard.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Keyboard.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Keyboard.exe
+  TARGET_IMPLIB = libKeyboard.dll.a
+  TARGET_PDB = Keyboard.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Is_it_rated
+
+
+#############################################
+# Order-only phony target for Is_it_rated
+
+build cmake_object_order_depends_target_Is_it_rated: phony || CMakeFiles/Is_it_rated.dir
+
+build CMakeFiles/Is_it_rated.dir/Sheet_A/Is_it_rated.cpp.obj: CXX_COMPILER__Is_it_rated_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Is_it_rated.cpp || cmake_object_order_depends_target_Is_it_rated
+  DEP_FILE = CMakeFiles\Is_it_rated.dir\Sheet_A\Is_it_rated.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Is_it_rated.dir
+  OBJECT_FILE_DIR = CMakeFiles\Is_it_rated.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Is_it_rated
+
+
+#############################################
+# Link the executable Is_it_rated.exe
+
+build Is_it_rated.exe: CXX_EXECUTABLE_LINKER__Is_it_rated_Debug CMakeFiles/Is_it_rated.dir/Sheet_A/Is_it_rated.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Is_it_rated.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Is_it_rated.exe
+  TARGET_IMPLIB = libIs_it_rated.dll.a
+  TARGET_PDB = Is_it_rated.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Pangram
+
+
+#############################################
+# Order-only phony target for Pangram
+
+build cmake_object_order_depends_target_Pangram: phony || CMakeFiles/Pangram.dir
+
+build CMakeFiles/Pangram.dir/Sheet_A/Pangram.cpp.obj: CXX_COMPILER__Pangram_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Pangram.cpp || cmake_object_order_depends_target_Pangram
+  DEP_FILE = CMakeFiles\Pangram.dir\Sheet_A\Pangram.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Pangram.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pangram.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Pangram
+
+
+#############################################
+# Link the executable Pangram.exe
+
+build Pangram.exe: CXX_EXECUTABLE_LINKER__Pangram_Debug CMakeFiles/Pangram.dir/Sheet_A/Pangram.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Pangram.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Pangram.exe
+  TARGET_IMPLIB = libPangram.dll.a
+  TARGET_PDB = Pangram.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Product
+
+
+#############################################
+# Order-only phony target for Product
+
+build cmake_object_order_depends_target_Product: phony || CMakeFiles/Product.dir
+
+build CMakeFiles/Product.dir/Sheet_A/Product.cpp.obj: CXX_COMPILER__Product_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Product.cpp || cmake_object_order_depends_target_Product
+  DEP_FILE = CMakeFiles\Product.dir\Sheet_A\Product.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Product.dir
+  OBJECT_FILE_DIR = CMakeFiles\Product.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Product
+
+
+#############################################
+# Link the executable Product.exe
+
+build Product.exe: CXX_EXECUTABLE_LINKER__Product_Debug CMakeFiles/Product.dir/Sheet_A/Product.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Product.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Product.exe
+  TARGET_IMPLIB = libProduct.dll.a
+  TARGET_PDB = Product.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Product_2nd
+
+
+#############################################
+# Order-only phony target for Product_2nd
+
+build cmake_object_order_depends_target_Product_2nd: phony || CMakeFiles/Product_2nd.dir
+
+build CMakeFiles/Product_2nd.dir/Sheet_A/Product_2nd.cpp.obj: CXX_COMPILER__Product_2nd_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Product_2nd.cpp || cmake_object_order_depends_target_Product_2nd
+  DEP_FILE = CMakeFiles\Product_2nd.dir\Sheet_A\Product_2nd.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Product_2nd.dir
+  OBJECT_FILE_DIR = CMakeFiles\Product_2nd.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Product_2nd
+
+
+#############################################
+# Link the executable Product_2nd.exe
+
+build Product_2nd.exe: CXX_EXECUTABLE_LINKER__Product_2nd_Debug CMakeFiles/Product_2nd.dir/Sheet_A/Product_2nd.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Product_2nd.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Product_2nd.exe
+  TARGET_IMPLIB = libProduct_2nd.dll.a
+  TARGET_PDB = Product_2nd.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Theatre_Square
+
+
+#############################################
+# Order-only phony target for Theatre_Square
+
+build cmake_object_order_depends_target_Theatre_Square: phony || CMakeFiles/Theatre_Square.dir
+
+build CMakeFiles/Theatre_Square.dir/Sheet_A/Theatre_Square.cpp.obj: CXX_COMPILER__Theatre_Square_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Theatre_Square.cpp || cmake_object_order_depends_target_Theatre_Square
+  DEP_FILE = CMakeFiles\Theatre_Square.dir\Sheet_A\Theatre_Square.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Theatre_Square.dir
+  OBJECT_FILE_DIR = CMakeFiles\Theatre_Square.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Theatre_Square
+
+
+#############################################
+# Link the executable Theatre_Square.exe
+
+build Theatre_Square.exe: CXX_EXECUTABLE_LINKER__Theatre_Square_Debug CMakeFiles/Theatre_Square.dir/Sheet_A/Theatre_Square.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Theatre_Square.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Theatre_Square.exe
+  TARGET_IMPLIB = libTheatre_Square.dll.a
+  TARGET_PDB = Theatre_Square.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Uniform_Generator
+
+
+#############################################
+# Order-only phony target for Uniform_Generator
+
+build cmake_object_order_depends_target_Uniform_Generator: phony || CMakeFiles/Uniform_Generator.dir
+
+build CMakeFiles/Uniform_Generator.dir/Sheet_A/Uniform_Generator.cpp.obj: CXX_COMPILER__Uniform_Generator_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Uniform_Generator.cpp || cmake_object_order_depends_target_Uniform_Generator
+  DEP_FILE = CMakeFiles\Uniform_Generator.dir\Sheet_A\Uniform_Generator.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Uniform_Generator.dir
+  OBJECT_FILE_DIR = CMakeFiles\Uniform_Generator.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Uniform_Generator
+
+
+#############################################
+# Link the executable Uniform_Generator.exe
+
+build Uniform_Generator.exe: CXX_EXECUTABLE_LINKER__Uniform_Generator_Debug CMakeFiles/Uniform_Generator.dir/Sheet_A/Uniform_Generator.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Uniform_Generator.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Uniform_Generator.exe
+  TARGET_IMPLIB = libUniform_Generator.dll.a
+  TARGET_PDB = Uniform_Generator.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Yaroslav_and_Permutations
+
+
+#############################################
+# Order-only phony target for Yaroslav_and_Permutations
+
+build cmake_object_order_depends_target_Yaroslav_and_Permutations: phony || CMakeFiles/Yaroslav_and_Permutations.dir
+
+build CMakeFiles/Yaroslav_and_Permutations.dir/Sheet_A/Yaroslav_and_Permutations.cpp.obj: CXX_COMPILER__Yaroslav_and_Permutations_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Yaroslav_and_Permutations.cpp || cmake_object_order_depends_target_Yaroslav_and_Permutations
+  DEP_FILE = CMakeFiles\Yaroslav_and_Permutations.dir\Sheet_A\Yaroslav_and_Permutations.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Yaroslav_and_Permutations.dir
+  OBJECT_FILE_DIR = CMakeFiles\Yaroslav_and_Permutations.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Yaroslav_and_Permutations
+
+
+#############################################
+# Link the executable Yaroslav_and_Permutations.exe
+
+build Yaroslav_and_Permutations.exe: CXX_EXECUTABLE_LINKER__Yaroslav_and_Permutations_Debug CMakeFiles/Yaroslav_and_Permutations.dir/Sheet_A/Yaroslav_and_Permutations.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Yaroslav_and_Permutations.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Yaroslav_and_Permutations.exe
+  TARGET_IMPLIB = libYaroslav_and_Permutations.dll.a
+  TARGET_PDB = Yaroslav_and_Permutations.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Valera_and_X
+
+
+#############################################
+# Order-only phony target for Valera_and_X
+
+build cmake_object_order_depends_target_Valera_and_X: phony || CMakeFiles/Valera_and_X.dir
+
+build CMakeFiles/Valera_and_X.dir/Sheet_A/Valera_and_X.cpp.obj: CXX_COMPILER__Valera_and_X_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Valera_and_X.cpp || cmake_object_order_depends_target_Valera_and_X
+  DEP_FILE = CMakeFiles\Valera_and_X.dir\Sheet_A\Valera_and_X.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Valera_and_X.dir
+  OBJECT_FILE_DIR = CMakeFiles\Valera_and_X.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Valera_and_X
+
+
+#############################################
+# Link the executable Valera_and_X.exe
+
+build Valera_and_X.exe: CXX_EXECUTABLE_LINKER__Valera_and_X_Debug CMakeFiles/Valera_and_X.dir/Sheet_A/Valera_and_X.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Valera_and_X.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Valera_and_X.exe
+  TARGET_IMPLIB = libValera_and_X.dll.a
+  TARGET_PDB = Valera_and_X.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target EASYMATH
+
+
+#############################################
+# Order-only phony target for EASYMATH
+
+build cmake_object_order_depends_target_EASYMATH: phony || CMakeFiles/EASYMATH.dir
+
+build CMakeFiles/EASYMATH.dir/Sheet_A/EASYMATH.cpp.obj: CXX_COMPILER__EASYMATH_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/EASYMATH.cpp || cmake_object_order_depends_target_EASYMATH
+  DEP_FILE = CMakeFiles\EASYMATH.dir\Sheet_A\EASYMATH.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\EASYMATH.dir
+  OBJECT_FILE_DIR = CMakeFiles\EASYMATH.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target EASYMATH
+
+
+#############################################
+# Link the executable EASYMATH.exe
+
+build EASYMATH.exe: CXX_EXECUTABLE_LINKER__EASYMATH_Debug CMakeFiles/EASYMATH.dir/Sheet_A/EASYMATH.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\EASYMATH.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = EASYMATH.exe
+  TARGET_IMPLIB = libEASYMATH.dll.a
+  TARGET_PDB = EASYMATH.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Electricity
+
+
+#############################################
+# Order-only phony target for Electricity
+
+build cmake_object_order_depends_target_Electricity: phony || CMakeFiles/Electricity.dir
+
+build CMakeFiles/Electricity.dir/Sheet_A/Electricity.cpp.obj: CXX_COMPILER__Electricity_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Electricity.cpp || cmake_object_order_depends_target_Electricity
+  DEP_FILE = CMakeFiles\Electricity.dir\Sheet_A\Electricity.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Electricity.dir
+  OBJECT_FILE_DIR = CMakeFiles\Electricity.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Electricity
+
+
+#############################################
+# Link the executable Electricity.exe
+
+build Electricity.exe: CXX_EXECUTABLE_LINKER__Electricity_Debug CMakeFiles/Electricity.dir/Sheet_A/Electricity.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Electricity.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Electricity.exe
+  TARGET_IMPLIB = libElectricity.dll.a
+  TARGET_PDB = Electricity.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BowWow_and_the_Timetable
+
+
+#############################################
+# Order-only phony target for BowWow_and_the_Timetable
+
+build cmake_object_order_depends_target_BowWow_and_the_Timetable: phony || CMakeFiles/BowWow_and_the_Timetable.dir
+
+build CMakeFiles/BowWow_and_the_Timetable.dir/Sheet_A/BowWow_and_the_Timetable.cpp.obj: CXX_COMPILER__BowWow_and_the_Timetable_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/BowWow_and_the_Timetable.cpp || cmake_object_order_depends_target_BowWow_and_the_Timetable
+  DEP_FILE = CMakeFiles\BowWow_and_the_Timetable.dir\Sheet_A\BowWow_and_the_Timetable.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\BowWow_and_the_Timetable.dir
+  OBJECT_FILE_DIR = CMakeFiles\BowWow_and_the_Timetable.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BowWow_and_the_Timetable
+
+
+#############################################
+# Link the executable BowWow_and_the_Timetable.exe
+
+build BowWow_and_the_Timetable.exe: CXX_EXECUTABLE_LINKER__BowWow_and_the_Timetable_Debug CMakeFiles/BowWow_and_the_Timetable.dir/Sheet_A/BowWow_and_the_Timetable.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BowWow_and_the_Timetable.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BowWow_and_the_Timetable.exe
+  TARGET_IMPLIB = libBowWow_and_the_Timetable.dll.a
+  TARGET_PDB = BowWow_and_the_Timetable.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Panoramixs_Prediction
+
+
+#############################################
+# Order-only phony target for Panoramixs_Prediction
+
+build cmake_object_order_depends_target_Panoramixs_Prediction: phony || CMakeFiles/Panoramixs_Prediction.dir
+
+build CMakeFiles/Panoramixs_Prediction.dir/Sheet_A/Panoramixs_Prediction.cpp.obj: CXX_COMPILER__Panoramixs_Prediction_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Panoramixs_Prediction.cpp || cmake_object_order_depends_target_Panoramixs_Prediction
+  DEP_FILE = CMakeFiles\Panoramixs_Prediction.dir\Sheet_A\Panoramixs_Prediction.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Panoramixs_Prediction.dir
+  OBJECT_FILE_DIR = CMakeFiles\Panoramixs_Prediction.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Panoramixs_Prediction
+
+
+#############################################
+# Link the executable Panoramixs_Prediction.exe
+
+build Panoramixs_Prediction.exe: CXX_EXECUTABLE_LINKER__Panoramixs_Prediction_Debug CMakeFiles/Panoramixs_Prediction.dir/Sheet_A/Panoramixs_Prediction.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Panoramixs_Prediction.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Panoramixs_Prediction.exe
+  TARGET_IMPLIB = libPanoramixs_Prediction.dll.a
+  TARGET_PDB = Panoramixs_Prediction.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Raising_Bacteria
+
+
+#############################################
+# Order-only phony target for Raising_Bacteria
+
+build cmake_object_order_depends_target_Raising_Bacteria: phony || CMakeFiles/Raising_Bacteria.dir
+
+build CMakeFiles/Raising_Bacteria.dir/Sheet_A/Raising_Bacteria.cpp.obj: CXX_COMPILER__Raising_Bacteria_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Raising_Bacteria.cpp || cmake_object_order_depends_target_Raising_Bacteria
+  DEP_FILE = CMakeFiles\Raising_Bacteria.dir\Sheet_A\Raising_Bacteria.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Raising_Bacteria.dir
+  OBJECT_FILE_DIR = CMakeFiles\Raising_Bacteria.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Raising_Bacteria
+
+
+#############################################
+# Link the executable Raising_Bacteria.exe
+
+build Raising_Bacteria.exe: CXX_EXECUTABLE_LINKER__Raising_Bacteria_Debug CMakeFiles/Raising_Bacteria.dir/Sheet_A/Raising_Bacteria.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Raising_Bacteria.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Raising_Bacteria.exe
+  TARGET_IMPLIB = libRaising_Bacteria.dll.a
+  TARGET_PDB = Raising_Bacteria.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Snow_Footprints
+
+
+#############################################
+# Order-only phony target for Snow_Footprints
+
+build cmake_object_order_depends_target_Snow_Footprints: phony || CMakeFiles/Snow_Footprints.dir
+
+build CMakeFiles/Snow_Footprints.dir/Sheet_A/Snow_Footprints.cpp.obj: CXX_COMPILER__Snow_Footprints_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Snow_Footprints.cpp || cmake_object_order_depends_target_Snow_Footprints
+  DEP_FILE = CMakeFiles\Snow_Footprints.dir\Sheet_A\Snow_Footprints.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Snow_Footprints.dir
+  OBJECT_FILE_DIR = CMakeFiles\Snow_Footprints.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Snow_Footprints
+
+
+#############################################
+# Link the executable Snow_Footprints.exe
+
+build Snow_Footprints.exe: CXX_EXECUTABLE_LINKER__Snow_Footprints_Debug CMakeFiles/Snow_Footprints.dir/Sheet_A/Snow_Footprints.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Snow_Footprints.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Snow_Footprints.exe
+  TARGET_IMPLIB = libSnow_Footprints.dll.a
+  TARGET_PDB = Snow_Footprints.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Oath_of_the_Nights_Watch
+
+
+#############################################
+# Order-only phony target for Oath_of_the_Nights_Watch
+
+build cmake_object_order_depends_target_Oath_of_the_Nights_Watch: phony || CMakeFiles/Oath_of_the_Nights_Watch.dir
+
+build CMakeFiles/Oath_of_the_Nights_Watch.dir/Sheet_A/Oath_of_the_Nights_Watch.cpp.obj: CXX_COMPILER__Oath_of_the_Nights_Watch_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Oath_of_the_Nights_Watch.cpp || cmake_object_order_depends_target_Oath_of_the_Nights_Watch
+  DEP_FILE = CMakeFiles\Oath_of_the_Nights_Watch.dir\Sheet_A\Oath_of_the_Nights_Watch.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Oath_of_the_Nights_Watch.dir
+  OBJECT_FILE_DIR = CMakeFiles\Oath_of_the_Nights_Watch.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Oath_of_the_Nights_Watch
+
+
+#############################################
+# Link the executable Oath_of_the_Nights_Watch.exe
+
+build Oath_of_the_Nights_Watch.exe: CXX_EXECUTABLE_LINKER__Oath_of_the_Nights_Watch_Debug CMakeFiles/Oath_of_the_Nights_Watch.dir/Sheet_A/Oath_of_the_Nights_Watch.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Oath_of_the_Nights_Watch.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Oath_of_the_Nights_Watch.exe
+  TARGET_IMPLIB = libOath_of_the_Nights_Watch.dll.a
+  TARGET_PDB = Oath_of_the_Nights_Watch.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Wasted_Time
+
+
+#############################################
+# Order-only phony target for Wasted_Time
+
+build cmake_object_order_depends_target_Wasted_Time: phony || CMakeFiles/Wasted_Time.dir
+
+build CMakeFiles/Wasted_Time.dir/Sheet_A/Wasted_Time.cpp.obj: CXX_COMPILER__Wasted_Time_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Wasted_Time.cpp || cmake_object_order_depends_target_Wasted_Time
+  DEP_FILE = CMakeFiles\Wasted_Time.dir\Sheet_A\Wasted_Time.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Wasted_Time.dir
+  OBJECT_FILE_DIR = CMakeFiles\Wasted_Time.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Wasted_Time
+
+
+#############################################
+# Link the executable Wasted_Time.exe
+
+build Wasted_Time.exe: CXX_EXECUTABLE_LINKER__Wasted_Time_Debug CMakeFiles/Wasted_Time.dir/Sheet_A/Wasted_Time.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Wasted_Time.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Wasted_Time.exe
+  TARGET_IMPLIB = libWasted_Time.dll.a
+  TARGET_PDB = Wasted_Time.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Fancy_Fence
+
+
+#############################################
+# Order-only phony target for Fancy_Fence
+
+build cmake_object_order_depends_target_Fancy_Fence: phony || CMakeFiles/Fancy_Fence.dir
+
+build CMakeFiles/Fancy_Fence.dir/Sheet_A/Fancy_Fence.cpp.obj: CXX_COMPILER__Fancy_Fence_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Fancy_Fence.cpp || cmake_object_order_depends_target_Fancy_Fence
+  DEP_FILE = CMakeFiles\Fancy_Fence.dir\Sheet_A\Fancy_Fence.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Fancy_Fence.dir
+  OBJECT_FILE_DIR = CMakeFiles\Fancy_Fence.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Fancy_Fence
+
+
+#############################################
+# Link the executable Fancy_Fence.exe
+
+build Fancy_Fence.exe: CXX_EXECUTABLE_LINKER__Fancy_Fence_Debug CMakeFiles/Fancy_Fence.dir/Sheet_A/Fancy_Fence.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Fancy_Fence.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Fancy_Fence.exe
+  TARGET_IMPLIB = libFancy_Fence.dll.a
+  TARGET_PDB = Fancy_Fence.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Pouring_Rain
+
+
+#############################################
+# Order-only phony target for Pouring_Rain
+
+build cmake_object_order_depends_target_Pouring_Rain: phony || CMakeFiles/Pouring_Rain.dir
+
+build CMakeFiles/Pouring_Rain.dir/Sheet_A/Pouring_Rain.cpp.obj: CXX_COMPILER__Pouring_Rain_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Pouring_Rain.cpp || cmake_object_order_depends_target_Pouring_Rain
+  DEP_FILE = CMakeFiles\Pouring_Rain.dir\Sheet_A\Pouring_Rain.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Pouring_Rain.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pouring_Rain.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Pouring_Rain
+
+
+#############################################
+# Link the executable Pouring_Rain.exe
+
+build Pouring_Rain.exe: CXX_EXECUTABLE_LINKER__Pouring_Rain_Debug CMakeFiles/Pouring_Rain.dir/Sheet_A/Pouring_Rain.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Pouring_Rain.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Pouring_Rain.exe
+  TARGET_IMPLIB = libPouring_Rain.dll.a
+  TARGET_PDB = Pouring_Rain.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Dice_Tower
+
+
+#############################################
+# Order-only phony target for Dice_Tower
+
+build cmake_object_order_depends_target_Dice_Tower: phony || CMakeFiles/Dice_Tower.dir
+
+build CMakeFiles/Dice_Tower.dir/Sheet_A/Dice_Tower.cpp.obj: CXX_COMPILER__Dice_Tower_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Dice_Tower.cpp || cmake_object_order_depends_target_Dice_Tower
+  DEP_FILE = CMakeFiles\Dice_Tower.dir\Sheet_A\Dice_Tower.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Dice_Tower.dir
+  OBJECT_FILE_DIR = CMakeFiles\Dice_Tower.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Dice_Tower
+
+
+#############################################
+# Link the executable Dice_Tower.exe
+
+build Dice_Tower.exe: CXX_EXECUTABLE_LINKER__Dice_Tower_Debug CMakeFiles/Dice_Tower.dir/Sheet_A/Dice_Tower.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Dice_Tower.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Dice_Tower.exe
+  TARGET_IMPLIB = libDice_Tower.dll.a
+  TARGET_PDB = Dice_Tower.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Points_in_Figures_Rectangles
+
+
+#############################################
+# Order-only phony target for Points_in_Figures_Rectangles
+
+build cmake_object_order_depends_target_Points_in_Figures_Rectangles: phony || CMakeFiles/Points_in_Figures_Rectangles.dir
+
+build CMakeFiles/Points_in_Figures_Rectangles.dir/Sheet_A/Points_in_Figures_Rectangles.cpp.obj: CXX_COMPILER__Points_in_Figures_Rectangles_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Points_in_Figures_Rectangles.cpp || cmake_object_order_depends_target_Points_in_Figures_Rectangles
+  DEP_FILE = CMakeFiles\Points_in_Figures_Rectangles.dir\Sheet_A\Points_in_Figures_Rectangles.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Points_in_Figures_Rectangles.dir
+  OBJECT_FILE_DIR = CMakeFiles\Points_in_Figures_Rectangles.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Points_in_Figures_Rectangles
+
+
+#############################################
+# Link the executable Points_in_Figures_Rectangles.exe
+
+build Points_in_Figures_Rectangles.exe: CXX_EXECUTABLE_LINKER__Points_in_Figures_Rectangles_Debug CMakeFiles/Points_in_Figures_Rectangles.dir/Sheet_A/Points_in_Figures_Rectangles.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Points_in_Figures_Rectangles.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Points_in_Figures_Rectangles.exe
+  TARGET_IMPLIB = libPoints_in_Figures_Rectangles.dll.a
+  TARGET_PDB = Points_in_Figures_Rectangles.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Overlapping_Rectangles
+
+
+#############################################
+# Order-only phony target for Overlapping_Rectangles
+
+build cmake_object_order_depends_target_Overlapping_Rectangles: phony || CMakeFiles/Overlapping_Rectangles.dir
+
+build CMakeFiles/Overlapping_Rectangles.dir/Sheet_A/Overlapping_Rectangles.cpp.obj: CXX_COMPILER__Overlapping_Rectangles_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Overlapping_Rectangles.cpp || cmake_object_order_depends_target_Overlapping_Rectangles
+  DEP_FILE = CMakeFiles\Overlapping_Rectangles.dir\Sheet_A\Overlapping_Rectangles.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Overlapping_Rectangles.dir
+  OBJECT_FILE_DIR = CMakeFiles\Overlapping_Rectangles.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Overlapping_Rectangles
+
+
+#############################################
+# Link the executable Overlapping_Rectangles.exe
+
+build Overlapping_Rectangles.exe: CXX_EXECUTABLE_LINKER__Overlapping_Rectangles_Debug CMakeFiles/Overlapping_Rectangles.dir/Sheet_A/Overlapping_Rectangles.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Overlapping_Rectangles.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Overlapping_Rectangles.exe
+  TARGET_IMPLIB = libOverlapping_Rectangles.dll.a
+  TARGET_PDB = Overlapping_Rectangles.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Fourth_Point
+
+
+#############################################
+# Order-only phony target for Fourth_Point
+
+build cmake_object_order_depends_target_Fourth_Point: phony || CMakeFiles/Fourth_Point.dir
+
+build CMakeFiles/Fourth_Point.dir/Sheet_A/Fourth_Point.cpp.obj: CXX_COMPILER__Fourth_Point_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Fourth_Point.cpp || cmake_object_order_depends_target_Fourth_Point
+  DEP_FILE = CMakeFiles\Fourth_Point.dir\Sheet_A\Fourth_Point.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Fourth_Point.dir
+  OBJECT_FILE_DIR = CMakeFiles\Fourth_Point.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Fourth_Point
+
+
+#############################################
+# Link the executable Fourth_Point.exe
+
+build Fourth_Point.exe: CXX_EXECUTABLE_LINKER__Fourth_Point_Debug CMakeFiles/Fourth_Point.dir/Sheet_A/Fourth_Point.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Fourth_Point.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Fourth_Point.exe
+  TARGET_IMPLIB = libFourth_Point.dll.a
+  TARGET_PDB = Fourth_Point.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target The_Playboy_Chimp
+
+
+#############################################
+# Order-only phony target for The_Playboy_Chimp
+
+build cmake_object_order_depends_target_The_Playboy_Chimp: phony || CMakeFiles/The_Playboy_Chimp.dir
+
+build CMakeFiles/The_Playboy_Chimp.dir/Sheet_A/The_Playboy_Chimp.cpp.obj: CXX_COMPILER__The_Playboy_Chimp_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/The_Playboy_Chimp.cpp || cmake_object_order_depends_target_The_Playboy_Chimp
+  DEP_FILE = CMakeFiles\The_Playboy_Chimp.dir\Sheet_A\The_Playboy_Chimp.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\The_Playboy_Chimp.dir
+  OBJECT_FILE_DIR = CMakeFiles\The_Playboy_Chimp.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target The_Playboy_Chimp
+
+
+#############################################
+# Link the executable The_Playboy_Chimp.exe
+
+build The_Playboy_Chimp.exe: CXX_EXECUTABLE_LINKER__The_Playboy_Chimp_Debug CMakeFiles/The_Playboy_Chimp.dir/Sheet_A/The_Playboy_Chimp.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\The_Playboy_Chimp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = The_Playboy_Chimp.exe
+  TARGET_IMPLIB = libThe_Playboy_Chimp.dll.a
+  TARGET_PDB = The_Playboy_Chimp.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Pipeline
+
+
+#############################################
+# Order-only phony target for Pipeline
+
+build cmake_object_order_depends_target_Pipeline: phony || CMakeFiles/Pipeline.dir
+
+build CMakeFiles/Pipeline.dir/Sheet_A/Pipeline.cpp.obj: CXX_COMPILER__Pipeline_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Pipeline.cpp || cmake_object_order_depends_target_Pipeline
+  DEP_FILE = CMakeFiles\Pipeline.dir\Sheet_A\Pipeline.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Pipeline.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pipeline.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Pipeline
+
+
+#############################################
+# Link the executable Pipeline.exe
+
+build Pipeline.exe: CXX_EXECUTABLE_LINKER__Pipeline_Debug CMakeFiles/Pipeline.dir/Sheet_A/Pipeline.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Pipeline.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Pipeline.exe
+  TARGET_IMPLIB = libPipeline.dll.a
+  TARGET_PDB = Pipeline.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Burning_Midnight_Oil
+
+
+#############################################
+# Order-only phony target for Burning_Midnight_Oil
+
+build cmake_object_order_depends_target_Burning_Midnight_Oil: phony || CMakeFiles/Burning_Midnight_Oil.dir
+
+build CMakeFiles/Burning_Midnight_Oil.dir/Sheet_A/Burning_Midnight_Oil.cpp.obj: CXX_COMPILER__Burning_Midnight_Oil_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Burning_Midnight_Oil.cpp || cmake_object_order_depends_target_Burning_Midnight_Oil
+  DEP_FILE = CMakeFiles\Burning_Midnight_Oil.dir\Sheet_A\Burning_Midnight_Oil.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Burning_Midnight_Oil.dir
+  OBJECT_FILE_DIR = CMakeFiles\Burning_Midnight_Oil.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Burning_Midnight_Oil
+
+
+#############################################
+# Link the executable Burning_Midnight_Oil.exe
+
+build Burning_Midnight_Oil.exe: CXX_EXECUTABLE_LINKER__Burning_Midnight_Oil_Debug CMakeFiles/Burning_Midnight_Oil.dir/Sheet_A/Burning_Midnight_Oil.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Burning_Midnight_Oil.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Burning_Midnight_Oil.exe
+  TARGET_IMPLIB = libBurning_Midnight_Oil.dll.a
+  TARGET_PDB = Burning_Midnight_Oil.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Aggressive_cows
+
+
+#############################################
+# Order-only phony target for Aggressive_cows
+
+build cmake_object_order_depends_target_Aggressive_cows: phony || CMakeFiles/Aggressive_cows.dir
+
+build CMakeFiles/Aggressive_cows.dir/Sheet_A/Aggressive_cows.cpp.obj: CXX_COMPILER__Aggressive_cows_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_A/Aggressive_cows.cpp || cmake_object_order_depends_target_Aggressive_cows
+  DEP_FILE = CMakeFiles\Aggressive_cows.dir\Sheet_A\Aggressive_cows.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Aggressive_cows.dir
+  OBJECT_FILE_DIR = CMakeFiles\Aggressive_cows.dir\Sheet_A
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Aggressive_cows
+
+
+#############################################
+# Link the executable Aggressive_cows.exe
+
+build Aggressive_cows.exe: CXX_EXECUTABLE_LINKER__Aggressive_cows_Debug CMakeFiles/Aggressive_cows.dir/Sheet_A/Aggressive_cows.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Aggressive_cows.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Aggressive_cows.exe
+  TARGET_IMPLIB = libAggressive_cows.dll.a
+  TARGET_PDB = Aggressive_cows.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "D:\CP\Training Sheet A\untitled\cmake-build-debug" && C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\Storm\CLionProjects\Junior_Training_Sheet\cmake-build-debug && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -92,7 +1970,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "D:\CP\Training Sheet A\untitled\cmake-build-debug" && C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S"D:\CP\Training Sheet A\untitled" -B"D:\CP\Training Sheet A\untitled\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D C:\Users\Storm\CLionProjects\Junior_Training_Sheet\cmake-build-debug && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SC:\Users\Storm\CLionProjects\Junior_Training_Sheet -BC:\Users\Storm\CLionProjects\Junior_Training_Sheet\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -102,7 +1980,121 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build untitled: phony untitled.exe
+build Aggressive_cows: phony Aggressive_cows.exe
+
+build Alyona_and_Numbers: phony Alyona_and_Numbers.exe
+
+build Anton_and_Polyhedrons: phony Anton_and_Polyhedrons.exe
+
+build Arpas_hard_exam_and_Mehrdads_naive_cheat: phony Arpas_hard_exam_and_Mehrdads_naive_cheat.exe
+
+build Balanced_Rating_Changes: phony Balanced_Rating_Changes.exe
+
+build BattleShip: phony BattleShip.exe
+
+build Black_and_white_painting: phony Black_and_white_painting.exe
+
+build BowWow_and_the_Timetable: phony BowWow_and_the_Timetable.exe
+
+build Brains_Photos: phony Brains_Photos.exe
+
+build Burning_Midnight_Oil: phony Burning_Midnight_Oil.exe
+
+build Calculating_Function: phony Calculating_Function.exe
+
+build Chewbacca_and_Number: phony Chewbacca_and_Number.exe
+
+build Counterexample: phony Counterexample.exe
+
+build Dice_Tower: phony Dice_Tower.exe
+
+build Dubstep: phony Dubstep.exe
+
+build EASYMATH: phony EASYMATH.exe
+
+build Electricity: phony Electricity.exe
+
+build Even_Odds: phony Even_Odds.exe
+
+build Fancy_Fence: phony Fancy_Fence.exe
+
+build Football: phony Football.exe
+
+build Forming_Teams: phony Forming_Teams.exe
+
+build Fourth_Point: phony Fourth_Point.exe
+
+build Good_Number: phony Good_Number.exe
+
+build Help_Vasilisa_the_Wise_2: phony Help_Vasilisa_the_Wise_2.exe
+
+build Hierarchy: phony Hierarchy.exe
+
+build IQ_Test: phony IQ_Test.exe
+
+build I_Wanna_Be_the_Guy: phony I_Wanna_Be_the_Guy.exe
+
+build Is_it_rated: phony Is_it_rated.exe
+
+build Keyboard: phony Keyboard.exe
+
+build Ksenia_and_Pan_Scales: phony Ksenia_and_Pan_Scales.exe
+
+build Launch_of_Collider: phony Launch_of_Collider.exe
+
+build Light_more_light: phony Light_more_light.exe
+
+build Lineland_Mail: phony Lineland_Mail.exe
+
+build Marcus_2: phony Marcus_2.exe
+
+build Mountain_Scenery: phony Mountain_Scenery.exe
+
+build Oath_of_the_Nights_Watch: phony Oath_of_the_Nights_Watch.exe
+
+build Olesya_and_Rodion: phony Olesya_and_Rodion.exe
+
+build Ordering_Tasks: phony Ordering_Tasks.exe
+
+build Overlapping_Rectangles: phony Overlapping_Rectangles.exe
+
+build Pangram: phony Pangram.exe
+
+build Panoramixs_Prediction: phony Panoramixs_Prediction.exe
+
+build Pipeline: phony Pipeline.exe
+
+build Points_in_Figures_Rectangles: phony Points_in_Figures_Rectangles.exe
+
+build Pouring_Rain: phony Pouring_Rain.exe
+
+build Product: phony Product.exe
+
+build Product_2nd: phony Product_2nd.exe
+
+build Raising_Bacteria: phony Raising_Bacteria.exe
+
+build Snow_Footprints: phony Snow_Footprints.exe
+
+build Team_Forming: phony Team_Forming.exe
+
+build The_Playboy_Chimp: phony The_Playboy_Chimp.exe
+
+build The_Seasonal_War: phony The_Seasonal_War.exe
+
+build The_Seasonal_War_2: phony The_Seasonal_War_2.exe
+
+build Theatre_Square: phony Theatre_Square.exe
+
+build Twins: phony Twins.exe
+
+build Uniform_Generator: phony Uniform_Generator.exe
+
+build Valera_and_X: phony Valera_and_X.exe
+
+build Wasted_Time: phony Wasted_Time.exe
+
+build Yaroslav_and_Permutations: phony Yaroslav_and_Permutations.exe
 
 # =============================================================================
 # Folder targets.
@@ -110,9 +2102,9 @@ build untitled: phony untitled.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/CP/Training Sheet A/untitled/cmake-build-debug
+# Folder: C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug
 
-build all: phony untitled.exe
+build all: phony Hierarchy.exe Ordering_Tasks.exe Team_Forming.exe Alyona_and_Numbers.exe Anton_and_Polyhedrons.exe Arpas_hard_exam_and_Mehrdads_naive_cheat.exe Balanced_Rating_Changes.exe BattleShip.exe Black_and_white_painting.exe Brains_Photos.exe Calculating_Function.exe Chewbacca_and_Number.exe Counterexample.exe Dubstep.exe Even_Odds.exe Football.exe Good_Number.exe Help_Vasilisa_the_Wise_2.exe I_Wanna_Be_the_Guy.exe IQ_Test.exe Ksenia_and_Pan_Scales.exe Launch_of_Collider.exe Light_more_light.exe Lineland_Mail.exe Marcus_2.exe Olesya_and_Rodion.exe Mountain_Scenery.exe The_Seasonal_War.exe The_Seasonal_War_2.exe Twins.exe Forming_Teams.exe Keyboard.exe Is_it_rated.exe Pangram.exe Product.exe Product_2nd.exe Theatre_Square.exe Uniform_Generator.exe Yaroslav_and_Permutations.exe Valera_and_X.exe EASYMATH.exe Electricity.exe BowWow_and_the_Timetable.exe Panoramixs_Prediction.exe Raising_Bacteria.exe Snow_Footprints.exe Oath_of_the_Nights_Watch.exe Wasted_Time.exe Fancy_Fence.exe Pouring_Rain.exe Dice_Tower.exe Points_in_Figures_Rectangles.exe Overlapping_Rectangles.exe Fourth_Point.exe The_Playboy_Chimp.exe Pipeline.exe Burning_Midnight_Oil.exe Aggressive_cows.exe
 
 # =============================================================================
 # Built-in targets
@@ -121,14 +2113,14 @@ build all: phony untitled.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeCCompiler.cmake.in C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeCCompilerABI.c C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeCInformation.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXCompiler.cmake.in C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXInformation.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeCompilerIdDetection.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeDetermineCCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeDetermineCXXCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeDetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeDetermineRCCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeFindBinUtils.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeGenericSystem.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeParseLibraryArchitecture.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeRCCompiler.cmake.in C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeRCInformation.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystem.cmake.in C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeTestCCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeTestCXXCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeTestCompilerCommon.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeTestRCCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-C.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Internal/FeatureTesting.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-Determine-CXX.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-windres.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeRCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeCInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeGenericSystem.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeRCInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-C.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-windres.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeRCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeCCompiler.cmake.in C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeCCompilerABI.c C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeCInformation.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXCompiler.cmake.in C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXInformation.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeCompilerIdDetection.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeDetermineCCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeDetermineCXXCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeDetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeDetermineRCCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeFindBinUtils.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeGenericSystem.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeParseLibraryArchitecture.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeRCCompiler.cmake.in C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeRCInformation.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystem.cmake.in C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeTestCCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeTestCXXCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeTestCompilerCommon.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/CMakeTestRCCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-C.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Internal/FeatureTesting.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-Determine-CXX.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-windres.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows.cmake C$:/Users/Tempest/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/cmake/win/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeRCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake: phony
+build ../CMakeLists.txt C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeCInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeGenericSystem.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeRCInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-C.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-windres.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeRCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake: phony
 
 
 #############################################

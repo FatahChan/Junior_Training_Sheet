@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: untitled
+# Project: Junior_Training_Sheet
 # Configurations: Debug
 # =============================================================================
 # =============================================================================
@@ -14,18 +14,1101 @@
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__untitled_Debug
+rule CXX_COMPILER__Hierarchy_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__untitled_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+rule CXX_EXECUTABLE_LINKER__Hierarchy_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Ordering_Tasks_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Ordering_Tasks_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Team_Forming_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Team_Forming_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Alyona_and_Numbers_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Alyona_and_Numbers_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Anton_and_Polyhedrons_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Anton_and_Polyhedrons_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Arpas_hard_exam_and_Mehrdads_naive_cheat_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Arpas_hard_exam_and_Mehrdads_naive_cheat_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Balanced_Rating_Changes_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Balanced_Rating_Changes_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__BattleShip_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__BattleShip_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Black_and_white_painting_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Black_and_white_painting_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Brains_Photos_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Brains_Photos_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Calculating_Function_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Calculating_Function_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Chewbacca_and_Number_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Chewbacca_and_Number_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Counterexample_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Counterexample_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Dubstep_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Dubstep_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Even_Odds_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Even_Odds_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Football_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Football_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Good_Number_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Good_Number_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Help_Vasilisa_the_Wise_2_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Help_Vasilisa_the_Wise_2_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__I_Wanna_Be_the_Guy_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__I_Wanna_Be_the_Guy_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__IQ_Test_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__IQ_Test_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Ksenia_and_Pan_Scales_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Ksenia_and_Pan_Scales_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Launch_of_Collider_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Launch_of_Collider_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Light_more_light_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Light_more_light_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Lineland_Mail_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Lineland_Mail_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Marcus_2_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Marcus_2_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Olesya_and_Rodion_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Olesya_and_Rodion_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Mountain_Scenery_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Mountain_Scenery_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__The_Seasonal_War_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__The_Seasonal_War_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__The_Seasonal_War_2_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__The_Seasonal_War_2_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Twins_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Twins_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Forming_Teams_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Forming_Teams_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Keyboard_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Keyboard_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Is_it_rated_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Is_it_rated_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Pangram_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Pangram_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Product_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Product_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Product_2nd_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Product_2nd_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Theatre_Square_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Theatre_Square_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Uniform_Generator_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Uniform_Generator_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Yaroslav_and_Permutations_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Yaroslav_and_Permutations_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Valera_and_X_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Valera_and_X_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__EASYMATH_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__EASYMATH_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Electricity_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Electricity_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__BowWow_and_the_Timetable_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__BowWow_and_the_Timetable_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Panoramixs_Prediction_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Panoramixs_Prediction_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Raising_Bacteria_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Raising_Bacteria_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Snow_Footprints_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Snow_Footprints_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Oath_of_the_Nights_Watch_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Oath_of_the_Nights_Watch_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Wasted_Time_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Wasted_Time_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Fancy_Fence_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Fancy_Fence_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Pouring_Rain_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Pouring_Rain_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Dice_Tower_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Dice_Tower_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Points_in_Figures_Rectangles_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Points_in_Figures_Rectangles_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Overlapping_Rectangles_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Overlapping_Rectangles_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Fourth_Point_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Fourth_Point_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__The_Playboy_Chimp_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__The_Playboy_Chimp_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Pipeline_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Pipeline_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Burning_Midnight_Oil_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Burning_Midnight_Oil_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Aggressive_cows_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Aggressive_cows_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -42,7 +1125,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S"D:\CP\Training Sheet A\untitled" -B"D:\CP\Training Sheet A\untitled\cmake-build-debug"
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SC:\Users\Storm\CLionProjects\Junior_Training_Sheet -BC:\Users\Storm\CLionProjects\Junior_Training_Sheet\cmake-build-debug
   description = Re-running CMake...
   generator = 1
 
@@ -51,7 +1134,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\ninja\win\ninja.exe $FILE_ARG -t clean $TARGETS
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\ninja\win\ninja.exe $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -59,6 +1142,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = C:\Users\Tempest\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\ninja\win\ninja.exe -t targets
+  command = C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\ninja\win\ninja.exe -t targets
   description = All primary targets available:
 
