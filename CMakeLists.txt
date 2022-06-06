@@ -58,3 +58,5 @@ add_executable(Points_in_Figures_Rectangles Sheet_A/Points_in_Figures_Rectangles
 add_executable(Overlapping_Rectangles Sheet_A/Overlapping_Rectangles.cpp)
 add_executable(Fourth_Point Sheet_A/Fourth_Point.cpp)
 add_executable(The_Playboy_Chimp Sheet_A/The_Playboy_Chimp.cpp)
+add_executable(Pipeline Sheet_A/Pipeline.cpp)
+add_executable(Burning_Midnight_Oil Sheet_A/Burning_Midnight_Oil.cpp)
