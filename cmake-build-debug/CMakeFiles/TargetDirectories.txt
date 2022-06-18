@@ -56,5 +56,14 @@ C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug/CMakeFiles/
 C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug/CMakeFiles/Pipeline.dir
 C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug/CMakeFiles/Burning_Midnight_Oil.dir
 C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug/CMakeFiles/Aggressive_cows.dir
+C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug/CMakeFiles/Hamming_Distance_Sum.dir
+C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug/CMakeFiles/Balanced_Tunnel.dir
+C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug/CMakeFiles/Wet_Shark_and_Bishops.dir
+C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug/CMakeFiles/Kefa_and_Company.dir
+C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug/CMakeFiles/Tavas_and_SaDDas.dir
+C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug/CMakeFiles/Minimum_Ternary_String.dir
+C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug/CMakeFiles/Vasya_and_Cornfield.dir
+C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug/CMakeFiles/Relatively_Prime_Pairs.dir
+C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug/CMakeFiles/Vanya_and_Lanterns.dir
 C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug/CMakeFiles/rebuild_cache.dir

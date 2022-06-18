@@ -1954,12 +1954,309 @@ build Aggressive_cows.exe: CXX_EXECUTABLE_LINKER__Aggressive_cows_Debug CMakeFil
   TARGET_IMPLIB = libAggressive_cows.dll.a
   TARGET_PDB = Aggressive_cows.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Hamming_Distance_Sum
+
+
+#############################################
+# Order-only phony target for Hamming_Distance_Sum
+
+build cmake_object_order_depends_target_Hamming_Distance_Sum: phony || CMakeFiles/Hamming_Distance_Sum.dir
+
+build CMakeFiles/Hamming_Distance_Sum.dir/Sheet_B/Hamming_Distance_Sum.cpp.obj: CXX_COMPILER__Hamming_Distance_Sum_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_B/Hamming_Distance_Sum.cpp || cmake_object_order_depends_target_Hamming_Distance_Sum
+  DEP_FILE = CMakeFiles\Hamming_Distance_Sum.dir\Sheet_B\Hamming_Distance_Sum.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Hamming_Distance_Sum.dir
+  OBJECT_FILE_DIR = CMakeFiles\Hamming_Distance_Sum.dir\Sheet_B
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Hamming_Distance_Sum
+
+
+#############################################
+# Link the executable Hamming_Distance_Sum.exe
+
+build Hamming_Distance_Sum.exe: CXX_EXECUTABLE_LINKER__Hamming_Distance_Sum_Debug CMakeFiles/Hamming_Distance_Sum.dir/Sheet_B/Hamming_Distance_Sum.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Hamming_Distance_Sum.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Hamming_Distance_Sum.exe
+  TARGET_IMPLIB = libHamming_Distance_Sum.dll.a
+  TARGET_PDB = Hamming_Distance_Sum.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Balanced_Tunnel
+
+
+#############################################
+# Order-only phony target for Balanced_Tunnel
+
+build cmake_object_order_depends_target_Balanced_Tunnel: phony || CMakeFiles/Balanced_Tunnel.dir
+
+build CMakeFiles/Balanced_Tunnel.dir/Sheet_B/Balanced_Tunnel.cpp.obj: CXX_COMPILER__Balanced_Tunnel_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_B/Balanced_Tunnel.cpp || cmake_object_order_depends_target_Balanced_Tunnel
+  DEP_FILE = CMakeFiles\Balanced_Tunnel.dir\Sheet_B\Balanced_Tunnel.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Balanced_Tunnel.dir
+  OBJECT_FILE_DIR = CMakeFiles\Balanced_Tunnel.dir\Sheet_B
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Balanced_Tunnel
+
+
+#############################################
+# Link the executable Balanced_Tunnel.exe
+
+build Balanced_Tunnel.exe: CXX_EXECUTABLE_LINKER__Balanced_Tunnel_Debug CMakeFiles/Balanced_Tunnel.dir/Sheet_B/Balanced_Tunnel.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Balanced_Tunnel.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Balanced_Tunnel.exe
+  TARGET_IMPLIB = libBalanced_Tunnel.dll.a
+  TARGET_PDB = Balanced_Tunnel.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Wet_Shark_and_Bishops
+
+
+#############################################
+# Order-only phony target for Wet_Shark_and_Bishops
+
+build cmake_object_order_depends_target_Wet_Shark_and_Bishops: phony || CMakeFiles/Wet_Shark_and_Bishops.dir
+
+build CMakeFiles/Wet_Shark_and_Bishops.dir/Sheet_B/Wet_Shark_and_Bishops.cpp.obj: CXX_COMPILER__Wet_Shark_and_Bishops_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_B/Wet_Shark_and_Bishops.cpp || cmake_object_order_depends_target_Wet_Shark_and_Bishops
+  DEP_FILE = CMakeFiles\Wet_Shark_and_Bishops.dir\Sheet_B\Wet_Shark_and_Bishops.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Wet_Shark_and_Bishops.dir
+  OBJECT_FILE_DIR = CMakeFiles\Wet_Shark_and_Bishops.dir\Sheet_B
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Wet_Shark_and_Bishops
+
+
+#############################################
+# Link the executable Wet_Shark_and_Bishops.exe
+
+build Wet_Shark_and_Bishops.exe: CXX_EXECUTABLE_LINKER__Wet_Shark_and_Bishops_Debug CMakeFiles/Wet_Shark_and_Bishops.dir/Sheet_B/Wet_Shark_and_Bishops.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Wet_Shark_and_Bishops.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Wet_Shark_and_Bishops.exe
+  TARGET_IMPLIB = libWet_Shark_and_Bishops.dll.a
+  TARGET_PDB = Wet_Shark_and_Bishops.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Kefa_and_Company
+
+
+#############################################
+# Order-only phony target for Kefa_and_Company
+
+build cmake_object_order_depends_target_Kefa_and_Company: phony || CMakeFiles/Kefa_and_Company.dir
+
+build CMakeFiles/Kefa_and_Company.dir/Sheet_B/Kefa_and_Company.cpp.obj: CXX_COMPILER__Kefa_and_Company_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_B/Kefa_and_Company.cpp || cmake_object_order_depends_target_Kefa_and_Company
+  DEP_FILE = CMakeFiles\Kefa_and_Company.dir\Sheet_B\Kefa_and_Company.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Kefa_and_Company.dir
+  OBJECT_FILE_DIR = CMakeFiles\Kefa_and_Company.dir\Sheet_B
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Kefa_and_Company
+
+
+#############################################
+# Link the executable Kefa_and_Company.exe
+
+build Kefa_and_Company.exe: CXX_EXECUTABLE_LINKER__Kefa_and_Company_Debug CMakeFiles/Kefa_and_Company.dir/Sheet_B/Kefa_and_Company.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Kefa_and_Company.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Kefa_and_Company.exe
+  TARGET_IMPLIB = libKefa_and_Company.dll.a
+  TARGET_PDB = Kefa_and_Company.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Tavas_and_SaDDas
+
+
+#############################################
+# Order-only phony target for Tavas_and_SaDDas
+
+build cmake_object_order_depends_target_Tavas_and_SaDDas: phony || CMakeFiles/Tavas_and_SaDDas.dir
+
+build CMakeFiles/Tavas_and_SaDDas.dir/Sheet_B/Tavas_and_SaDDas_.cpp.obj: CXX_COMPILER__Tavas_and_SaDDas_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_B/Tavas_and_SaDDas$ .cpp || cmake_object_order_depends_target_Tavas_and_SaDDas
+  DEP_FILE = CMakeFiles\Tavas_and_SaDDas.dir\Sheet_B\Tavas_and_SaDDas_.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Tavas_and_SaDDas.dir
+  OBJECT_FILE_DIR = CMakeFiles\Tavas_and_SaDDas.dir\Sheet_B
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Tavas_and_SaDDas
+
+
+#############################################
+# Link the executable Tavas_and_SaDDas.exe
+
+build Tavas_and_SaDDas.exe: CXX_EXECUTABLE_LINKER__Tavas_and_SaDDas_Debug CMakeFiles/Tavas_and_SaDDas.dir/Sheet_B/Tavas_and_SaDDas_.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Tavas_and_SaDDas.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Tavas_and_SaDDas.exe
+  TARGET_IMPLIB = libTavas_and_SaDDas.dll.a
+  TARGET_PDB = Tavas_and_SaDDas.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Minimum_Ternary_String
+
+
+#############################################
+# Order-only phony target for Minimum_Ternary_String
+
+build cmake_object_order_depends_target_Minimum_Ternary_String: phony || CMakeFiles/Minimum_Ternary_String.dir
+
+build CMakeFiles/Minimum_Ternary_String.dir/Sheet_B/Minimum_Ternary_String.cpp.obj: CXX_COMPILER__Minimum_Ternary_String_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_B/Minimum_Ternary_String.cpp || cmake_object_order_depends_target_Minimum_Ternary_String
+  DEP_FILE = CMakeFiles\Minimum_Ternary_String.dir\Sheet_B\Minimum_Ternary_String.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Minimum_Ternary_String.dir
+  OBJECT_FILE_DIR = CMakeFiles\Minimum_Ternary_String.dir\Sheet_B
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Minimum_Ternary_String
+
+
+#############################################
+# Link the executable Minimum_Ternary_String.exe
+
+build Minimum_Ternary_String.exe: CXX_EXECUTABLE_LINKER__Minimum_Ternary_String_Debug CMakeFiles/Minimum_Ternary_String.dir/Sheet_B/Minimum_Ternary_String.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Minimum_Ternary_String.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Minimum_Ternary_String.exe
+  TARGET_IMPLIB = libMinimum_Ternary_String.dll.a
+  TARGET_PDB = Minimum_Ternary_String.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Vasya_and_Cornfield
+
+
+#############################################
+# Order-only phony target for Vasya_and_Cornfield
+
+build cmake_object_order_depends_target_Vasya_and_Cornfield: phony || CMakeFiles/Vasya_and_Cornfield.dir
+
+build CMakeFiles/Vasya_and_Cornfield.dir/Sheet_B/Vasya_and_Cornfield.cpp.obj: CXX_COMPILER__Vasya_and_Cornfield_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_B/Vasya_and_Cornfield.cpp || cmake_object_order_depends_target_Vasya_and_Cornfield
+  DEP_FILE = CMakeFiles\Vasya_and_Cornfield.dir\Sheet_B\Vasya_and_Cornfield.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Vasya_and_Cornfield.dir
+  OBJECT_FILE_DIR = CMakeFiles\Vasya_and_Cornfield.dir\Sheet_B
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Vasya_and_Cornfield
+
+
+#############################################
+# Link the executable Vasya_and_Cornfield.exe
+
+build Vasya_and_Cornfield.exe: CXX_EXECUTABLE_LINKER__Vasya_and_Cornfield_Debug CMakeFiles/Vasya_and_Cornfield.dir/Sheet_B/Vasya_and_Cornfield.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Vasya_and_Cornfield.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Vasya_and_Cornfield.exe
+  TARGET_IMPLIB = libVasya_and_Cornfield.dll.a
+  TARGET_PDB = Vasya_and_Cornfield.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Relatively_Prime_Pairs
+
+
+#############################################
+# Order-only phony target for Relatively_Prime_Pairs
+
+build cmake_object_order_depends_target_Relatively_Prime_Pairs: phony || CMakeFiles/Relatively_Prime_Pairs.dir
+
+build CMakeFiles/Relatively_Prime_Pairs.dir/Sheet_B/Relatively_Prime_Pairs.cpp.obj: CXX_COMPILER__Relatively_Prime_Pairs_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_B/Relatively_Prime_Pairs.cpp || cmake_object_order_depends_target_Relatively_Prime_Pairs
+  DEP_FILE = CMakeFiles\Relatively_Prime_Pairs.dir\Sheet_B\Relatively_Prime_Pairs.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Relatively_Prime_Pairs.dir
+  OBJECT_FILE_DIR = CMakeFiles\Relatively_Prime_Pairs.dir\Sheet_B
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Relatively_Prime_Pairs
+
+
+#############################################
+# Link the executable Relatively_Prime_Pairs.exe
+
+build Relatively_Prime_Pairs.exe: CXX_EXECUTABLE_LINKER__Relatively_Prime_Pairs_Debug CMakeFiles/Relatively_Prime_Pairs.dir/Sheet_B/Relatively_Prime_Pairs.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Relatively_Prime_Pairs.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Relatively_Prime_Pairs.exe
+  TARGET_IMPLIB = libRelatively_Prime_Pairs.dll.a
+  TARGET_PDB = Relatively_Prime_Pairs.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Vanya_and_Lanterns
+
+
+#############################################
+# Order-only phony target for Vanya_and_Lanterns
+
+build cmake_object_order_depends_target_Vanya_and_Lanterns: phony || CMakeFiles/Vanya_and_Lanterns.dir
+
+build CMakeFiles/Vanya_and_Lanterns.dir/Sheet_B/Vanya_and_Lanterns.cpp.obj: CXX_COMPILER__Vanya_and_Lanterns_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_B/Vanya_and_Lanterns.cpp || cmake_object_order_depends_target_Vanya_and_Lanterns
+  DEP_FILE = CMakeFiles\Vanya_and_Lanterns.dir\Sheet_B\Vanya_and_Lanterns.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Vanya_and_Lanterns.dir
+  OBJECT_FILE_DIR = CMakeFiles\Vanya_and_Lanterns.dir\Sheet_B
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Vanya_and_Lanterns
+
+
+#############################################
+# Link the executable Vanya_and_Lanterns.exe
+
+build Vanya_and_Lanterns.exe: CXX_EXECUTABLE_LINKER__Vanya_and_Lanterns_Debug CMakeFiles/Vanya_and_Lanterns.dir/Sheet_B/Vanya_and_Lanterns.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Vanya_and_Lanterns.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Vanya_and_Lanterns.exe
+  TARGET_IMPLIB = libVanya_and_Lanterns.dll.a
+  TARGET_PDB = Vanya_and_Lanterns.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Storm\CLionProjects\Junior_Training_Sheet\cmake-build-debug && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\Storm\CLionProjects\Junior_Training_Sheet\cmake-build-debug && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5787.29\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1970,7 +2267,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Storm\CLionProjects\Junior_Training_Sheet\cmake-build-debug && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SC:\Users\Storm\CLionProjects\Junior_Training_Sheet -BC:\Users\Storm\CLionProjects\Junior_Training_Sheet\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Storm\CLionProjects\Junior_Training_Sheet\cmake-build-debug && C:\Users\Storm\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5787.29\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SC:\Users\Storm\CLionProjects\Junior_Training_Sheet -BC:\Users\Storm\CLionProjects\Junior_Training_Sheet\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1989,6 +2286,8 @@ build Anton_and_Polyhedrons: phony Anton_and_Polyhedrons.exe
 build Arpas_hard_exam_and_Mehrdads_naive_cheat: phony Arpas_hard_exam_and_Mehrdads_naive_cheat.exe
 
 build Balanced_Rating_Changes: phony Balanced_Rating_Changes.exe
+
+build Balanced_Tunnel: phony Balanced_Tunnel.exe
 
 build BattleShip: phony BattleShip.exe
 
@@ -2026,6 +2325,8 @@ build Fourth_Point: phony Fourth_Point.exe
 
 build Good_Number: phony Good_Number.exe
 
+build Hamming_Distance_Sum: phony Hamming_Distance_Sum.exe
+
 build Help_Vasilisa_the_Wise_2: phony Help_Vasilisa_the_Wise_2.exe
 
 build Hierarchy: phony Hierarchy.exe
@@ -2035,6 +2336,8 @@ build IQ_Test: phony IQ_Test.exe
 build I_Wanna_Be_the_Guy: phony I_Wanna_Be_the_Guy.exe
 
 build Is_it_rated: phony Is_it_rated.exe
+
+build Kefa_and_Company: phony Kefa_and_Company.exe
 
 build Keyboard: phony Keyboard.exe
 
@@ -2047,6 +2350,8 @@ build Light_more_light: phony Light_more_light.exe
 build Lineland_Mail: phony Lineland_Mail.exe
 
 build Marcus_2: phony Marcus_2.exe
+
+build Minimum_Ternary_String: phony Minimum_Ternary_String.exe
 
 build Mountain_Scenery: phony Mountain_Scenery.exe
 
@@ -2074,7 +2379,11 @@ build Product_2nd: phony Product_2nd.exe
 
 build Raising_Bacteria: phony Raising_Bacteria.exe
 
+build Relatively_Prime_Pairs: phony Relatively_Prime_Pairs.exe
+
 build Snow_Footprints: phony Snow_Footprints.exe
+
+build Tavas_and_SaDDas: phony Tavas_and_SaDDas.exe
 
 build Team_Forming: phony Team_Forming.exe
 
@@ -2092,7 +2401,13 @@ build Uniform_Generator: phony Uniform_Generator.exe
 
 build Valera_and_X: phony Valera_and_X.exe
 
+build Vanya_and_Lanterns: phony Vanya_and_Lanterns.exe
+
+build Vasya_and_Cornfield: phony Vasya_and_Cornfield.exe
+
 build Wasted_Time: phony Wasted_Time.exe
+
+build Wet_Shark_and_Bishops: phony Wet_Shark_and_Bishops.exe
 
 build Yaroslav_and_Permutations: phony Yaroslav_and_Permutations.exe
 
@@ -2104,7 +2419,7 @@ build Yaroslav_and_Permutations: phony Yaroslav_and_Permutations.exe
 #############################################
 # Folder: C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug
 
-build all: phony Hierarchy.exe Ordering_Tasks.exe Team_Forming.exe Alyona_and_Numbers.exe Anton_and_Polyhedrons.exe Arpas_hard_exam_and_Mehrdads_naive_cheat.exe Balanced_Rating_Changes.exe BattleShip.exe Black_and_white_painting.exe Brains_Photos.exe Calculating_Function.exe Chewbacca_and_Number.exe Counterexample.exe Dubstep.exe Even_Odds.exe Football.exe Good_Number.exe Help_Vasilisa_the_Wise_2.exe I_Wanna_Be_the_Guy.exe IQ_Test.exe Ksenia_and_Pan_Scales.exe Launch_of_Collider.exe Light_more_light.exe Lineland_Mail.exe Marcus_2.exe Olesya_and_Rodion.exe Mountain_Scenery.exe The_Seasonal_War.exe The_Seasonal_War_2.exe Twins.exe Forming_Teams.exe Keyboard.exe Is_it_rated.exe Pangram.exe Product.exe Product_2nd.exe Theatre_Square.exe Uniform_Generator.exe Yaroslav_and_Permutations.exe Valera_and_X.exe EASYMATH.exe Electricity.exe BowWow_and_the_Timetable.exe Panoramixs_Prediction.exe Raising_Bacteria.exe Snow_Footprints.exe Oath_of_the_Nights_Watch.exe Wasted_Time.exe Fancy_Fence.exe Pouring_Rain.exe Dice_Tower.exe Points_in_Figures_Rectangles.exe Overlapping_Rectangles.exe Fourth_Point.exe The_Playboy_Chimp.exe Pipeline.exe Burning_Midnight_Oil.exe Aggressive_cows.exe
+build all: phony Hierarchy.exe Ordering_Tasks.exe Team_Forming.exe Alyona_and_Numbers.exe Anton_and_Polyhedrons.exe Arpas_hard_exam_and_Mehrdads_naive_cheat.exe Balanced_Rating_Changes.exe BattleShip.exe Black_and_white_painting.exe Brains_Photos.exe Calculating_Function.exe Chewbacca_and_Number.exe Counterexample.exe Dubstep.exe Even_Odds.exe Football.exe Good_Number.exe Help_Vasilisa_the_Wise_2.exe I_Wanna_Be_the_Guy.exe IQ_Test.exe Ksenia_and_Pan_Scales.exe Launch_of_Collider.exe Light_more_light.exe Lineland_Mail.exe Marcus_2.exe Olesya_and_Rodion.exe Mountain_Scenery.exe The_Seasonal_War.exe The_Seasonal_War_2.exe Twins.exe Forming_Teams.exe Keyboard.exe Is_it_rated.exe Pangram.exe Product.exe Product_2nd.exe Theatre_Square.exe Uniform_Generator.exe Yaroslav_and_Permutations.exe Valera_and_X.exe EASYMATH.exe Electricity.exe BowWow_and_the_Timetable.exe Panoramixs_Prediction.exe Raising_Bacteria.exe Snow_Footprints.exe Oath_of_the_Nights_Watch.exe Wasted_Time.exe Fancy_Fence.exe Pouring_Rain.exe Dice_Tower.exe Points_in_Figures_Rectangles.exe Overlapping_Rectangles.exe Fourth_Point.exe The_Playboy_Chimp.exe Pipeline.exe Burning_Midnight_Oil.exe Aggressive_cows.exe Hamming_Distance_Sum.exe Balanced_Tunnel.exe Wet_Shark_and_Bishops.exe Kefa_and_Company.exe Tavas_and_SaDDas.exe Minimum_Ternary_String.exe Vasya_and_Cornfield.exe Relatively_Prime_Pairs.exe Vanya_and_Lanterns.exe
 
 # =============================================================================
 # Built-in targets
@@ -2113,14 +2428,14 @@ build all: phony Hierarchy.exe Ordering_Tasks.exe Team_Forming.exe Alyona_and_Nu
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeCInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeGenericSystem.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeRCInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-C.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-windres.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeRCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/CMakeCInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/CMakeGenericSystem.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/CMakeRCInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-C.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-windres.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeRCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeCInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeGenericSystem.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeRCInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-C.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-windres.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/win/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeRCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake: phony
+build ../CMakeLists.txt C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/CMakeCInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/CMakeGenericSystem.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/CMakeRCInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-C.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-windres.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows.cmake C$:/Users/Storm/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/win/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeRCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake: phony
 
 
 #############################################
