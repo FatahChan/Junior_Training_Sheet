@@ -65,5 +65,10 @@ C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug/CMakeFiles/
 C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug/CMakeFiles/Vasya_and_Cornfield.dir
 C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug/CMakeFiles/Relatively_Prime_Pairs.dir
 C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug/CMakeFiles/Vanya_and_Lanterns.dir
+C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug/CMakeFiles/Taxi.dir
+C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug/CMakeFiles/Vacations.dir
+C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug/CMakeFiles/Kuriyama_Mirais_Stones.dir
+C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug/CMakeFiles/Fence.dir
+C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug/CMakeFiles/Woodcutters.dir
 C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug/CMakeFiles/rebuild_cache.dir

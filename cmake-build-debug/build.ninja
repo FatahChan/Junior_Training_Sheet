@@ -2251,6 +2251,171 @@ build Vanya_and_Lanterns.exe: CXX_EXECUTABLE_LINKER__Vanya_and_Lanterns_Debug CM
   TARGET_IMPLIB = libVanya_and_Lanterns.dll.a
   TARGET_PDB = Vanya_and_Lanterns.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Taxi
+
+
+#############################################
+# Order-only phony target for Taxi
+
+build cmake_object_order_depends_target_Taxi: phony || CMakeFiles/Taxi.dir
+
+build CMakeFiles/Taxi.dir/Sheet_B/Taxi.cpp.obj: CXX_COMPILER__Taxi_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_B/Taxi.cpp || cmake_object_order_depends_target_Taxi
+  DEP_FILE = CMakeFiles\Taxi.dir\Sheet_B\Taxi.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Taxi.dir
+  OBJECT_FILE_DIR = CMakeFiles\Taxi.dir\Sheet_B
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Taxi
+
+
+#############################################
+# Link the executable Taxi.exe
+
+build Taxi.exe: CXX_EXECUTABLE_LINKER__Taxi_Debug CMakeFiles/Taxi.dir/Sheet_B/Taxi.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Taxi.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Taxi.exe
+  TARGET_IMPLIB = libTaxi.dll.a
+  TARGET_PDB = Taxi.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Vacations
+
+
+#############################################
+# Order-only phony target for Vacations
+
+build cmake_object_order_depends_target_Vacations: phony || CMakeFiles/Vacations.dir
+
+build CMakeFiles/Vacations.dir/Sheet_B/Vacations.cpp.obj: CXX_COMPILER__Vacations_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_B/Vacations.cpp || cmake_object_order_depends_target_Vacations
+  DEP_FILE = CMakeFiles\Vacations.dir\Sheet_B\Vacations.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Vacations.dir
+  OBJECT_FILE_DIR = CMakeFiles\Vacations.dir\Sheet_B
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Vacations
+
+
+#############################################
+# Link the executable Vacations.exe
+
+build Vacations.exe: CXX_EXECUTABLE_LINKER__Vacations_Debug CMakeFiles/Vacations.dir/Sheet_B/Vacations.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Vacations.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Vacations.exe
+  TARGET_IMPLIB = libVacations.dll.a
+  TARGET_PDB = Vacations.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Kuriyama_Mirais_Stones
+
+
+#############################################
+# Order-only phony target for Kuriyama_Mirais_Stones
+
+build cmake_object_order_depends_target_Kuriyama_Mirais_Stones: phony || CMakeFiles/Kuriyama_Mirais_Stones.dir
+
+build CMakeFiles/Kuriyama_Mirais_Stones.dir/Sheet_B/Kuriyama_Mirais_Stones.cpp.obj: CXX_COMPILER__Kuriyama_Mirais_Stones_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_B/Kuriyama_Mirais_Stones.cpp || cmake_object_order_depends_target_Kuriyama_Mirais_Stones
+  DEP_FILE = CMakeFiles\Kuriyama_Mirais_Stones.dir\Sheet_B\Kuriyama_Mirais_Stones.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Kuriyama_Mirais_Stones.dir
+  OBJECT_FILE_DIR = CMakeFiles\Kuriyama_Mirais_Stones.dir\Sheet_B
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Kuriyama_Mirais_Stones
+
+
+#############################################
+# Link the executable Kuriyama_Mirais_Stones.exe
+
+build Kuriyama_Mirais_Stones.exe: CXX_EXECUTABLE_LINKER__Kuriyama_Mirais_Stones_Debug CMakeFiles/Kuriyama_Mirais_Stones.dir/Sheet_B/Kuriyama_Mirais_Stones.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Kuriyama_Mirais_Stones.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Kuriyama_Mirais_Stones.exe
+  TARGET_IMPLIB = libKuriyama_Mirais_Stones.dll.a
+  TARGET_PDB = Kuriyama_Mirais_Stones.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Fence
+
+
+#############################################
+# Order-only phony target for Fence
+
+build cmake_object_order_depends_target_Fence: phony || CMakeFiles/Fence.dir
+
+build CMakeFiles/Fence.dir/Sheet_B/Fence.cpp.obj: CXX_COMPILER__Fence_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_B/Fence.cpp || cmake_object_order_depends_target_Fence
+  DEP_FILE = CMakeFiles\Fence.dir\Sheet_B\Fence.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Fence.dir
+  OBJECT_FILE_DIR = CMakeFiles\Fence.dir\Sheet_B
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Fence
+
+
+#############################################
+# Link the executable Fence.exe
+
+build Fence.exe: CXX_EXECUTABLE_LINKER__Fence_Debug CMakeFiles/Fence.dir/Sheet_B/Fence.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Fence.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Fence.exe
+  TARGET_IMPLIB = libFence.dll.a
+  TARGET_PDB = Fence.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Woodcutters
+
+
+#############################################
+# Order-only phony target for Woodcutters
+
+build cmake_object_order_depends_target_Woodcutters: phony || CMakeFiles/Woodcutters.dir
+
+build CMakeFiles/Woodcutters.dir/Sheet_B/Woodcutters.cpp.obj: CXX_COMPILER__Woodcutters_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_B/Woodcutters.cpp || cmake_object_order_depends_target_Woodcutters
+  DEP_FILE = CMakeFiles\Woodcutters.dir\Sheet_B\Woodcutters.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Woodcutters.dir
+  OBJECT_FILE_DIR = CMakeFiles\Woodcutters.dir\Sheet_B
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Woodcutters
+
+
+#############################################
+# Link the executable Woodcutters.exe
+
+build Woodcutters.exe: CXX_EXECUTABLE_LINKER__Woodcutters_Debug CMakeFiles/Woodcutters.dir/Sheet_B/Woodcutters.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Woodcutters.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Woodcutters.exe
+  TARGET_IMPLIB = libWoodcutters.dll.a
+  TARGET_PDB = Woodcutters.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2317,6 +2482,8 @@ build Even_Odds: phony Even_Odds.exe
 
 build Fancy_Fence: phony Fancy_Fence.exe
 
+build Fence: phony Fence.exe
+
 build Football: phony Football.exe
 
 build Forming_Teams: phony Forming_Teams.exe
@@ -2342,6 +2509,8 @@ build Kefa_and_Company: phony Kefa_and_Company.exe
 build Keyboard: phony Keyboard.exe
 
 build Ksenia_and_Pan_Scales: phony Ksenia_and_Pan_Scales.exe
+
+build Kuriyama_Mirais_Stones: phony Kuriyama_Mirais_Stones.exe
 
 build Launch_of_Collider: phony Launch_of_Collider.exe
 
@@ -2385,6 +2554,8 @@ build Snow_Footprints: phony Snow_Footprints.exe
 
 build Tavas_and_SaDDas: phony Tavas_and_SaDDas.exe
 
+build Taxi: phony Taxi.exe
+
 build Team_Forming: phony Team_Forming.exe
 
 build The_Playboy_Chimp: phony The_Playboy_Chimp.exe
@@ -2399,6 +2570,8 @@ build Twins: phony Twins.exe
 
 build Uniform_Generator: phony Uniform_Generator.exe
 
+build Vacations: phony Vacations.exe
+
 build Valera_and_X: phony Valera_and_X.exe
 
 build Vanya_and_Lanterns: phony Vanya_and_Lanterns.exe
@@ -2408,6 +2581,8 @@ build Vasya_and_Cornfield: phony Vasya_and_Cornfield.exe
 build Wasted_Time: phony Wasted_Time.exe
 
 build Wet_Shark_and_Bishops: phony Wet_Shark_and_Bishops.exe
+
+build Woodcutters: phony Woodcutters.exe
 
 build Yaroslav_and_Permutations: phony Yaroslav_and_Permutations.exe
 
@@ -2419,7 +2594,7 @@ build Yaroslav_and_Permutations: phony Yaroslav_and_Permutations.exe
 #############################################
 # Folder: C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug
 
-build all: phony Hierarchy.exe Ordering_Tasks.exe Team_Forming.exe Alyona_and_Numbers.exe Anton_and_Polyhedrons.exe Arpas_hard_exam_and_Mehrdads_naive_cheat.exe Balanced_Rating_Changes.exe BattleShip.exe Black_and_white_painting.exe Brains_Photos.exe Calculating_Function.exe Chewbacca_and_Number.exe Counterexample.exe Dubstep.exe Even_Odds.exe Football.exe Good_Number.exe Help_Vasilisa_the_Wise_2.exe I_Wanna_Be_the_Guy.exe IQ_Test.exe Ksenia_and_Pan_Scales.exe Launch_of_Collider.exe Light_more_light.exe Lineland_Mail.exe Marcus_2.exe Olesya_and_Rodion.exe Mountain_Scenery.exe The_Seasonal_War.exe The_Seasonal_War_2.exe Twins.exe Forming_Teams.exe Keyboard.exe Is_it_rated.exe Pangram.exe Product.exe Product_2nd.exe Theatre_Square.exe Uniform_Generator.exe Yaroslav_and_Permutations.exe Valera_and_X.exe EASYMATH.exe Electricity.exe BowWow_and_the_Timetable.exe Panoramixs_Prediction.exe Raising_Bacteria.exe Snow_Footprints.exe Oath_of_the_Nights_Watch.exe Wasted_Time.exe Fancy_Fence.exe Pouring_Rain.exe Dice_Tower.exe Points_in_Figures_Rectangles.exe Overlapping_Rectangles.exe Fourth_Point.exe The_Playboy_Chimp.exe Pipeline.exe Burning_Midnight_Oil.exe Aggressive_cows.exe Hamming_Distance_Sum.exe Balanced_Tunnel.exe Wet_Shark_and_Bishops.exe Kefa_and_Company.exe Tavas_and_SaDDas.exe Minimum_Ternary_String.exe Vasya_and_Cornfield.exe Relatively_Prime_Pairs.exe Vanya_and_Lanterns.exe
+build all: phony Hierarchy.exe Ordering_Tasks.exe Team_Forming.exe Alyona_and_Numbers.exe Anton_and_Polyhedrons.exe Arpas_hard_exam_and_Mehrdads_naive_cheat.exe Balanced_Rating_Changes.exe BattleShip.exe Black_and_white_painting.exe Brains_Photos.exe Calculating_Function.exe Chewbacca_and_Number.exe Counterexample.exe Dubstep.exe Even_Odds.exe Football.exe Good_Number.exe Help_Vasilisa_the_Wise_2.exe I_Wanna_Be_the_Guy.exe IQ_Test.exe Ksenia_and_Pan_Scales.exe Launch_of_Collider.exe Light_more_light.exe Lineland_Mail.exe Marcus_2.exe Olesya_and_Rodion.exe Mountain_Scenery.exe The_Seasonal_War.exe The_Seasonal_War_2.exe Twins.exe Forming_Teams.exe Keyboard.exe Is_it_rated.exe Pangram.exe Product.exe Product_2nd.exe Theatre_Square.exe Uniform_Generator.exe Yaroslav_and_Permutations.exe Valera_and_X.exe EASYMATH.exe Electricity.exe BowWow_and_the_Timetable.exe Panoramixs_Prediction.exe Raising_Bacteria.exe Snow_Footprints.exe Oath_of_the_Nights_Watch.exe Wasted_Time.exe Fancy_Fence.exe Pouring_Rain.exe Dice_Tower.exe Points_in_Figures_Rectangles.exe Overlapping_Rectangles.exe Fourth_Point.exe The_Playboy_Chimp.exe Pipeline.exe Burning_Midnight_Oil.exe Aggressive_cows.exe Hamming_Distance_Sum.exe Balanced_Tunnel.exe Wet_Shark_and_Bishops.exe Kefa_and_Company.exe Tavas_and_SaDDas.exe Minimum_Ternary_String.exe Vasya_and_Cornfield.exe Relatively_Prime_Pairs.exe Vanya_and_Lanterns.exe Taxi.exe Vacations.exe Kuriyama_Mirais_Stones.exe Fence.exe Woodcutters.exe
 
 # =============================================================================
 # Built-in targets
