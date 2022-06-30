@@ -2416,6 +2416,105 @@ build Woodcutters.exe: CXX_EXECUTABLE_LINKER__Woodcutters_Debug CMakeFiles/Woodc
   TARGET_IMPLIB = libWoodcutters.dll.a
   TARGET_PDB = Woodcutters.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Barcode
+
+
+#############################################
+# Order-only phony target for Barcode
+
+build cmake_object_order_depends_target_Barcode: phony || CMakeFiles/Barcode.dir
+
+build CMakeFiles/Barcode.dir/Sheet_B/Barcode.cpp.obj: CXX_COMPILER__Barcode_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_B/Barcode.cpp || cmake_object_order_depends_target_Barcode
+  DEP_FILE = CMakeFiles\Barcode.dir\Sheet_B\Barcode.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Barcode.dir
+  OBJECT_FILE_DIR = CMakeFiles\Barcode.dir\Sheet_B
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Barcode
+
+
+#############################################
+# Link the executable Barcode.exe
+
+build Barcode.exe: CXX_EXECUTABLE_LINKER__Barcode_Debug CMakeFiles/Barcode.dir/Sheet_B/Barcode.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Barcode.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Barcode.exe
+  TARGET_IMPLIB = libBarcode.dll.a
+  TARGET_PDB = Barcode.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PaintingEggs
+
+
+#############################################
+# Order-only phony target for PaintingEggs
+
+build cmake_object_order_depends_target_PaintingEggs: phony || CMakeFiles/PaintingEggs.dir
+
+build CMakeFiles/PaintingEggs.dir/Sheet_B/PaintingEggs.cpp.obj: CXX_COMPILER__PaintingEggs_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_B/PaintingEggs.cpp || cmake_object_order_depends_target_PaintingEggs
+  DEP_FILE = CMakeFiles\PaintingEggs.dir\Sheet_B\PaintingEggs.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\PaintingEggs.dir
+  OBJECT_FILE_DIR = CMakeFiles\PaintingEggs.dir\Sheet_B
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PaintingEggs
+
+
+#############################################
+# Link the executable PaintingEggs.exe
+
+build PaintingEggs.exe: CXX_EXECUTABLE_LINKER__PaintingEggs_Debug CMakeFiles/PaintingEggs.dir/Sheet_B/PaintingEggs.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\PaintingEggs.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = PaintingEggs.exe
+  TARGET_IMPLIB = libPaintingEggs.dll.a
+  TARGET_PDB = PaintingEggs.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Little_Gir_and_Game
+
+
+#############################################
+# Order-only phony target for Little_Gir_and_Game
+
+build cmake_object_order_depends_target_Little_Gir_and_Game: phony || CMakeFiles/Little_Gir_and_Game.dir
+
+build CMakeFiles/Little_Gir_and_Game.dir/Sheet_B/Little_Gir_and_Game.cpp.obj: CXX_COMPILER__Little_Gir_and_Game_Debug C$:/Users/Storm/CLionProjects/Junior_Training_Sheet/Sheet_B/Little_Gir_and_Game.cpp || cmake_object_order_depends_target_Little_Gir_and_Game
+  DEP_FILE = CMakeFiles\Little_Gir_and_Game.dir\Sheet_B\Little_Gir_and_Game.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Little_Gir_and_Game.dir
+  OBJECT_FILE_DIR = CMakeFiles\Little_Gir_and_Game.dir\Sheet_B
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Little_Gir_and_Game
+
+
+#############################################
+# Link the executable Little_Gir_and_Game.exe
+
+build Little_Gir_and_Game.exe: CXX_EXECUTABLE_LINKER__Little_Gir_and_Game_Debug CMakeFiles/Little_Gir_and_Game.dir/Sheet_B/Little_Gir_and_Game.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Little_Gir_and_Game.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Little_Gir_and_Game.exe
+  TARGET_IMPLIB = libLittle_Gir_and_Game.dll.a
+  TARGET_PDB = Little_Gir_and_Game.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2453,6 +2552,8 @@ build Arpas_hard_exam_and_Mehrdads_naive_cheat: phony Arpas_hard_exam_and_Mehrda
 build Balanced_Rating_Changes: phony Balanced_Rating_Changes.exe
 
 build Balanced_Tunnel: phony Balanced_Tunnel.exe
+
+build Barcode: phony Barcode.exe
 
 build BattleShip: phony BattleShip.exe
 
@@ -2518,6 +2619,8 @@ build Light_more_light: phony Light_more_light.exe
 
 build Lineland_Mail: phony Lineland_Mail.exe
 
+build Little_Gir_and_Game: phony Little_Gir_and_Game.exe
+
 build Marcus_2: phony Marcus_2.exe
 
 build Minimum_Ternary_String: phony Minimum_Ternary_String.exe
@@ -2531,6 +2634,8 @@ build Olesya_and_Rodion: phony Olesya_and_Rodion.exe
 build Ordering_Tasks: phony Ordering_Tasks.exe
 
 build Overlapping_Rectangles: phony Overlapping_Rectangles.exe
+
+build PaintingEggs: phony PaintingEggs.exe
 
 build Pangram: phony Pangram.exe
 
@@ -2594,7 +2699,7 @@ build Yaroslav_and_Permutations: phony Yaroslav_and_Permutations.exe
 #############################################
 # Folder: C:/Users/Storm/CLionProjects/Junior_Training_Sheet/cmake-build-debug
 
-build all: phony Hierarchy.exe Ordering_Tasks.exe Team_Forming.exe Alyona_and_Numbers.exe Anton_and_Polyhedrons.exe Arpas_hard_exam_and_Mehrdads_naive_cheat.exe Balanced_Rating_Changes.exe BattleShip.exe Black_and_white_painting.exe Brains_Photos.exe Calculating_Function.exe Chewbacca_and_Number.exe Counterexample.exe Dubstep.exe Even_Odds.exe Football.exe Good_Number.exe Help_Vasilisa_the_Wise_2.exe I_Wanna_Be_the_Guy.exe IQ_Test.exe Ksenia_and_Pan_Scales.exe Launch_of_Collider.exe Light_more_light.exe Lineland_Mail.exe Marcus_2.exe Olesya_and_Rodion.exe Mountain_Scenery.exe The_Seasonal_War.exe The_Seasonal_War_2.exe Twins.exe Forming_Teams.exe Keyboard.exe Is_it_rated.exe Pangram.exe Product.exe Product_2nd.exe Theatre_Square.exe Uniform_Generator.exe Yaroslav_and_Permutations.exe Valera_and_X.exe EASYMATH.exe Electricity.exe BowWow_and_the_Timetable.exe Panoramixs_Prediction.exe Raising_Bacteria.exe Snow_Footprints.exe Oath_of_the_Nights_Watch.exe Wasted_Time.exe Fancy_Fence.exe Pouring_Rain.exe Dice_Tower.exe Points_in_Figures_Rectangles.exe Overlapping_Rectangles.exe Fourth_Point.exe The_Playboy_Chimp.exe Pipeline.exe Burning_Midnight_Oil.exe Aggressive_cows.exe Hamming_Distance_Sum.exe Balanced_Tunnel.exe Wet_Shark_and_Bishops.exe Kefa_and_Company.exe Tavas_and_SaDDas.exe Minimum_Ternary_String.exe Vasya_and_Cornfield.exe Relatively_Prime_Pairs.exe Vanya_and_Lanterns.exe Taxi.exe Vacations.exe Kuriyama_Mirais_Stones.exe Fence.exe Woodcutters.exe
+build all: phony Hierarchy.exe Ordering_Tasks.exe Team_Forming.exe Alyona_and_Numbers.exe Anton_and_Polyhedrons.exe Arpas_hard_exam_and_Mehrdads_naive_cheat.exe Balanced_Rating_Changes.exe BattleShip.exe Black_and_white_painting.exe Brains_Photos.exe Calculating_Function.exe Chewbacca_and_Number.exe Counterexample.exe Dubstep.exe Even_Odds.exe Football.exe Good_Number.exe Help_Vasilisa_the_Wise_2.exe I_Wanna_Be_the_Guy.exe IQ_Test.exe Ksenia_and_Pan_Scales.exe Launch_of_Collider.exe Light_more_light.exe Lineland_Mail.exe Marcus_2.exe Olesya_and_Rodion.exe Mountain_Scenery.exe The_Seasonal_War.exe The_Seasonal_War_2.exe Twins.exe Forming_Teams.exe Keyboard.exe Is_it_rated.exe Pangram.exe Product.exe Product_2nd.exe Theatre_Square.exe Uniform_Generator.exe Yaroslav_and_Permutations.exe Valera_and_X.exe EASYMATH.exe Electricity.exe BowWow_and_the_Timetable.exe Panoramixs_Prediction.exe Raising_Bacteria.exe Snow_Footprints.exe Oath_of_the_Nights_Watch.exe Wasted_Time.exe Fancy_Fence.exe Pouring_Rain.exe Dice_Tower.exe Points_in_Figures_Rectangles.exe Overlapping_Rectangles.exe Fourth_Point.exe The_Playboy_Chimp.exe Pipeline.exe Burning_Midnight_Oil.exe Aggressive_cows.exe Hamming_Distance_Sum.exe Balanced_Tunnel.exe Wet_Shark_and_Bishops.exe Kefa_and_Company.exe Tavas_and_SaDDas.exe Minimum_Ternary_String.exe Vasya_and_Cornfield.exe Relatively_Prime_Pairs.exe Vanya_and_Lanterns.exe Taxi.exe Vacations.exe Kuriyama_Mirais_Stones.exe Fence.exe Woodcutters.exe Barcode.exe PaintingEggs.exe Little_Gir_and_Game.exe
 
 # =============================================================================
 # Built-in targets
